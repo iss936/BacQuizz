@@ -9,16 +9,30 @@ import android.view.Menu;
 import android.view.View;
 
 public class Chapitre2 extends Activity{
+<<<<<<< HEAD
+=======
+	
+//	private Button mBtnQuizz;
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_chapitre2);
 		setTitle("La mondialisation");
+<<<<<<< HEAD
+=======
+//		mBtnQuizz = (Button) findViewById(R.id.btnQuizz);
+//		mBtnQuizz.setOnClickListener(this);
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
+<<<<<<< HEAD
+=======
+		// Inflate the menu; this adds items to the action bar if it is present.
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
@@ -46,4 +60,54 @@ public class Chapitre2 extends Activity{
 	    .setIcon(android.R.drawable.ic_dialog_alert)
 	     .show();
 	}
+<<<<<<< HEAD
 }
+=======
+}
+	
+//	private void showQuizzDialog()
+//	{
+//
+//		final View addView = getLayoutInflater().inflate(R.layout.quizz, null);
+//		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+//			// set title
+//			alertDialogBuilder.setTitle("prêt");
+//
+//			// set dialog message
+//			alertDialogBuilder
+//				.setMessage("Commencer le quizz?")
+//				.setPositiveButton("Oui",new DialogInterface.OnClickListener() {
+//					
+//				
+//			
+//					public void onClick(DialogInterface dialog,int id) {
+//					
+//						setContentView(addView);
+//					
+//					}
+//				  })
+//				.setNegativeButton("Non",new DialogInterface.OnClickListener() {
+//					public void onClick(DialogInterface dialog,int id) {
+//						// if this button is clicked, just close
+//						// the dialog box and do nothing
+//						
+//						dialog.cancel();
+//					}
+//				});
+// 
+//				// create alert dialog
+//				AlertDialog alertDialog = alertDialogBuilder.create();
+//
+//				 
+//
+//				// show alert
+//				alertDialog.show();
+//
+//			}
+//		;
+//	}
+//	
+
+
+
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2

@@ -23,8 +23,12 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int information=0x7f020001;
+<<<<<<< HEAD
         public static final int mybutton=0x7f020002;
         public static final int quizz=0x7f020003;
+=======
+        public static final int quizz=0x7f020002;
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f08000b;
@@ -67,6 +71,7 @@ public final class R {
         public static final int activity_chapitre1=0x7f030000;
         public static final int activity_chapitre2=0x7f030001;
         public static final int activity_chapitre3=0x7f030002;
+<<<<<<< HEAD
         public static final int activity_chapitre4=0x7f030003;
         public static final int activity_main=0x7f030004;
         public static final int activity_quizz=0x7f030005;
@@ -79,6 +84,19 @@ public final class R {
         public static final int note_edit=0x7f03000c;
         public static final int notes_list=0x7f03000d;
         public static final int notes_row=0x7f03000e;
+=======
+        public static final int activity_main=0x7f030003;
+        public static final int activity_quizz=0x7f030004;
+        public static final int activity_score=0x7f030005;
+        public static final int add_fiche=0x7f030006;
+        public static final int fiche_revision=0x7f030007;
+        public static final int menu_es=0x7f030008;
+        public static final int menu_l=0x7f030009;
+        public static final int menu_s=0x7f03000a;
+        public static final int note_edit=0x7f03000b;
+        public static final int notes_list=0x7f03000c;
+        public static final int notes_row=0x7f03000d;
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
     }
     public static final class menu {
         public static final int chapitre1=0x7f070000;
@@ -94,7 +112,10 @@ public final class R {
         public static final int body=0x7f050017;
         public static final int confirm=0x7f050018;
         public static final int cours_chapitre2=0x7f05001a;
+<<<<<<< HEAD
         public static final int cours_chapitre4=0x7f05001b;
+=======
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
         public static final int edit_note=0x7f050019;
         public static final int enregistrer=0x7f050010;
         public static final int fiche_revision=0x7f050005;

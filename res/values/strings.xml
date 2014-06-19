@@ -167,6 +167,7 @@ Mais les communistes et les socialistes demeurent mélangés jusqu’en 1920, da
 Le socialisme ne se veut pas cependant anticapitaliste, mais réformiste. Ainsi, en 1936, le front populaire fait voter des lois sociales et ne remet pas le capitalisme
  en question.
     </string>
+<<<<<<< HEAD
     <string name="cours_chapitre4">
         I - Les alliances en Europe et dans le monde en 1939\n\n
 
@@ -236,5 +237,7 @@ Bilan territorial : de nombreuses rectifications de frontières ont lieu. La fro
 Bilan institutionnel : la SDN est supprimée en 1946 et remplacée par l’ONU (Organisation des Nations Unies). Celle-ci a été instituée par la charte de San Francisco, adoptée en juin 1946. L’ONU est composée de toutes les nations indépendantes. Les 5 membres permanents du conseil de sécurité sont les Etats-Unis, l’URSS, la Chine, la France et l’Angleterre. Ces 5 puissances permanentes disposent d’un droit de véto. Cette configuration est toujours en place aujourd’hui.\n
 La Seconde Guerre Mondiale est donc à l’origine du nouvel ordre mondial actuel, encore fondé sur la victoire de 1945. On remarque aussi les premières tensions entre l’URSS et les puissances occidentales, ce qui va donner lieu à la guerre froide.
     </string>
+=======
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 
 </resources>

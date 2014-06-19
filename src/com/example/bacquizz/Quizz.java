@@ -297,6 +297,7 @@ public class Quizz extends Activity implements OnClickListener{
 		question10 = new Questions(10, "Les pratiquants religieux passent de 60% de la population en 1945 à:", "10%", "30%", "20%", "5%", idChapitre);
 		break;
 	}
+<<<<<<< HEAD
 	case 4:
 	{
 		question1 = new Questions(1, "Quels pays composent l'Allience durant la Seconde Guerre Mondiale?", "La France et l'Angleterre", "La France et la Belgique", "La Pologne et la France", "L'Angleterre et les Etats-Unis", idChapitre);
@@ -310,6 +311,8 @@ public class Quizz extends Activity implements OnClickListener{
 		question9 = new Questions(9, "Quelle est la date du débarquement en Normandie?", "Le 6 juin 1944", "Le 30 avril 1945", "Le 27 juin 1945", "Le 11 novembre 1943", idChapitre);
 		question10 = new Questions(10, "Quelles sont les conséquences du refus de la capitulation japonaise?", "Les Etats-Unis largueront 2 bombes nucléaires sur le Japon", "Le Japon sera envahi par l'Allemagne", "Le Japon est envahi par les Etats-Unis", "La France déclare la guerre au Japon", idChapitre);
 	}
+=======
+>>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 	default:
 		break;
 	}
