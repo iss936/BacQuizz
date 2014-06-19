@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bac Quizz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bac_l">Bac L</string>
+    <string name="ma_fiche">Ma fiche</string>
+    <string name="fiche_revision">Fiche révision</string>
+    <string name="bac_s">Bac S</string>
+    <string name="bac_es">Bac ES</string>
+    <string name="quizz">Quizz</string>
+    <string name="i">i</string>
+    <string name="votre_question_">Votre question:</string>
+    <string name="vos_r_ponses">Vos réponses</string>
+    <string name="la_bonne_r_ponse">La bonne réponse</string>
+    <string name="mauvaise_r_ponse_1">Mauvaise réponse 1</string>
+    <string name="mauvaise_r_ponse_2">Mauvaise réponse 2</string>
+    <string name="mauvaise_r_ponse_3">Mauvaise réponse 3</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="title_activity_fiche_revision">FicheRevision</string>
+    <string name="title_activity_chapitre1">Chapitre1</string>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="menu_insert">Add Fiche</string>
+    <string name="menu_delete">Delete Fiche</string>
+    <string name="title">Nom de la fiche</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Fiche</string>
+    <string name="cours_chapitre2">
+        I - La Croissance économique et ses effets \n\n
+
+La croissance économique peut se définir comme une augmentation du PIB (Produit Intérieur Brut). C’est une augmentation durable de la production et des profits.
+ La croissance tire son énergie de multiples facteurs. Elle transforme également la société sur plusieurs aspects.\n\n
+1 - Les causes de la croissance économique\n\n
+
+La croissance économique est nourrie par les gains de productivité. Ceux-ci sont souvent la conséquence des innovations. 
+Ainsi, la première révolution industrielle qui apparaît en Angleterre au début du XIXème siècle est le fruit de nouvelles découvertes technologiques, 
+comme la machine à vapeur qui permet par exemple de réduire les coûts de transport. Le progrès technique dont découlent les innovations est fondamental dans la croissance.
+ Mais la croissance économique ne passe pas que par des innovations techniques, mais aussi par l’accroissement de la productivité du travail. 
+ Celui-ci est révolutionné par la DIT (Division Internationale du Travail) conduite par l’OST (Organisation Scientifique du Travail). 
+ Celle-ci élabore des nouvelles méthodes de travail comme le fordisme, qui prône une division des tâches, le travail à la chaîne, la standardisation des produits, 
+ le chronométrage des tâches pour mieux organiser le travail et ainsi faire des gains de productivité.\n\n
+2 - Les effets de la croissance économique\n\n
+
+La croissance économique, quand elle est importante, entraîne une baisse du chômage et augmente la richesse des nations. 
+Mais elle bouleverse aussi la société et la structure même du travail. Ainsi, l’économiste Joseph Schumpeter met en évidence le phénomène de destruction créatrice. 
+Ce phénomène entraîne la disparition de métiers et de méthodes de travail qui sont remplacés par d’autres métiers plus rationnalisés et donc plus productifs.\n
+Les sociétés subissent aussi une transformation sectorielle de leur économie. 
+En effet, une société non développée est caractérisée par une domination du secteur primaire (agriculture, pêche).
+ L’industrialisation des pays sous l’effet d’une forte croissance économique permet de diminuer la part du secteur primaire et d’augmenter celle du secteur secondaire 
+ (industrie) et celle du secteur tertiaire (services). Cette transformation permet de s’affirmer comme un pays développé et riche.\n\n
+II - Les grands cycles économiques : entre croissance et dépression\n\n
+
+1 - Les révolutions industrielles : un temps de croissance économique forte\n\n
+
+La première révolution industrielle a lieu en Angleterre puis en France, entre la fin du XVIIIème siècle et le début du XIXème siècle. 
+En effet, sous l’impulsion de nouvelles découvertes technologiques telles que la machine à vapeur, les gains de productivité s’accroissent,
+ entraînant une forte croissance économique. La deuxième révolution industrielle qui survient au milieu du XIXème siècle a eu lieu grâce aux chemins de fer, à la chimie, 
+ à la sidérurgie, à la métallurgie, etc. Ces nouveaux secteurs d’activités très prometteurs nécessitent beaucoup de main d’œuvre et font ainsi baisser le chômage.
+  De plus, les grosses entreprises émergent et avec elles une recherche toujours plus poussée, ce qui permet des innovations technologiques et une productivité plus forte. 
+  La révolution industrielle est en réalité une industrialisation progressive de l’Europe Occidentale dans un premier temps puis des Etats-Unis et du Japon
+   à partir des années 1850.\n\n
+
+La diffusion du chemin de fer en Europe avant 1914.\n\n
+2 - Une croissance irrégulière parsemée de crises\n\n
+
+L’économiste russe Kondratiev développe une théorie cyclique selon laquelle tous les 50 ans environ, une crise majeure survient. Cette théorie se vérifie. 
+En 1873, une crise majeure survient : c’est la grande dépression qui durera jusqu’en 1896. La dépression est une longue période durant laquelle la croissance ralentit,
+ les profits baissent et le chômage s’installe durablement. Les dépressions s’opposent aux crises, qui sont ponctuelles. De 1896 à 1914, c’est la « belle époque »,
+  marquée par une croissance économique forte. Après la première guerre mondiale, la croissance repart dans les années 1920 et des pays très affaiblis par la guerre,
+   comme l’Allemagne, se relèvent économiquement.\n
+La crise du 24 Octobre 1929 (dite du Jeudi noir) est une crise boursière américaine puis mondiale qui a fait plonger beaucoup d’économies européennes 
+comme celles de l’Allemagne et de l’Angleterre. La France est moins touchée, mais les Etats-Unis sont frappés de plein fouet par cette crise qui entraîne une dépression
+ durant les années 1930. Les Etats-Unis innovent économiquement et décident de faire intervenir l’Etat dans l’économie pour la faire repartir. C’est le New Deal,
+  mis en place par le président Roosevelt, qui redonne du travail à des millions d’américains au chômage en organisant une politique de grands travaux.
+   La France adopte une autre stratégie et préfère se replier sur son empire colonial.\n
+La fin de la seconde guerre mondiale débouche sur une période de prospérité. En effet, le système international mis en place après la guerre est stable, 
+ce qui encourage l’économie. L’Europe entre dans une période que Jean Fourastié appelle « les Trente Glorieuses ». Le vieux continent connaît alors une forte croissance 
+qui lui permet de s’enrichir durablement. Cette croissance ne se limite pas à l’Europe, mais concerne aussi de nombreux pays à travers le monde, dont le Japon est
+ l’exemple le plus fragrant. Cette élévation du niveau de vie est freinée en 1973 par le premier choc pétrolier, causé par la guerre du Kippour. Mais on remarquera 
+ que le système était déjà affaibli par l’abandon de la convertibilité du dollar en or en 1971. A partir de l’année 1973 survient alors une période morose pour 
+ la France et pour de nombreux pays, caractérisée par une croissance faible. L’Angleterre et la RFA connaissent cependant une croissance plutôt élevée, de même que 
+ les pays asiatiques.\n
+La situation économique repart à la fin des années 1990, mais ce processus est arrêté par la crise de 2008, qui fait trembler le système au point d’être sur le point 
+de le faire s’effondrer, ce qui n’arrivera finalement pas. Jusqu’à aujourd’hui la situation reste difficile même si la reprise commence à se faire sentir.\n\n
+III - Les trois économies mondes successives\n\n
+
+Trois économies mondes se succèdent du XIXème siècle à aujourd’hui. On entend par économie monde un système dans lequel un vaste espace acquiert, en raison 
+de l’importance de ses échanges, une unité et une autonomie économique.\n\n
+1 - L’économie monde britannique\n\n
+
+La Grande-Bretagne domine le monde jusqu’en 1914. Son empire colonial est immense et son industrialisation est la plus ancienne. La mondialisation, phénomène 
+d’interpénétration croissante des économies nationales sous l’impulsion du libre-échange, des FTN (Firmes Transnationales) et de l’augmentation des échanges,
+ provoque peu à peu la disparition des frontières et permet essentiellement à l’Angleterre de tirer profit de l’accroissement des échanges par le commerce.
+  La livre Sterling s’impose comme la monnaie dominante du monde.\n\n
+2 - L’économie monde américaine\n\n
+
+Après 1945, les Etats-Unis détiennent 65% du stock d’or mondial. Le pays est alors la première puissance mondiale dans tous les domaines. 
+Le pays sort vainqueur de la seconde guerre mondiale et s’affirme très vite comme une super puissance en instituant un système monétaire par les accords de 
+Bretton Woods en juillet 1944, qui sont favorables au pays. En effet, par ces accords, le pays bénéfice d’une suprématie du dollar dans les échanges internationaux. 
+C’est la seule monnaie convertible en or. Leur puissance financière permet aux Etats-Unis d’aider les pays européens à se reconstruire par le plan Marshall en 1948.
+ Les FMN (Firmes MultiNationales, l’équivalent des FTN) permettent aux américains d’étendre leur civilisation à travers le monde, en diffusant leurs standards et leur 
+ mode de vie. La supériorité américaine se manifeste aussi par des avancées technologiques majeures, telles que la bombe atomique en 1945, suivie en 1952 par la bombe 
+ à hydrogène, encore plus puissante. Dans le domaine spatial, les Etats-Unis rattrapent leur retard face aux Soviétiques et réussissent à envoyer le premier homme sur 
+ la lune en 1969. Le modèle démocratique américain et son mode de confort fascinent le monde, ce qui n’empêche pas les inégalités.\n\n
+3 - Un monde multipolaire\n\n
+
+La fin de la guerre froide en 1991 marque l’effondrement du modèle communiste et le triomphe du capitalisme. Les Etats-Unis restent une super puissance économique
+ mais de nouvelles puissances s’affirment, comme la Chine, qui par ses réformes économiques s’ouvre au monde extérieur et adopte le libre-échange.
+  Cela développe son économie et la place même aujourd’hui au rang de deuxième puissance mondiale, juste derrière les Etats-Unis. Mais d’autres puissances émergent :
+   c’est le cas du Brésil, de l’Inde, de l’Afrique du Sud et maintenant de la Russie. Ces 4 pays, plus la Chine, forment les BRICS
+    (Brésil, Russie, Inde, Chine, Afrique du Sud). Les quatre dragons asiatiques sont eux considérés comme des pays développés à partir des années 1990 : 
+    il s’agit de Hong-Kong, de la Corée du Sud, de Taiwan et de Singapour.\n
+On voit donc que l’Occident (Japon, Europe de l’Ouest, Etats-Unis) n’est plus le centre exclusif du pouvoir économique. Cependant la ligne Nord/Sud est toujours d’actualité.
+ Cette ligne imaginaire sépare les pays du Nord (les plus riches) des pays du Sud (les plus pauvres). Cela est reflété par la Triade, qui est composée de trois pôles 
+ de puissance : l’Europe occidentale, les Etats-Unis et le pôle de l’Asie orientale, lui-même composé de la côte Est chinoise, du Japon, de la Corée du Sud et de Taiwan.
+  Les NPI (Nouveaux Pays Industrialisés) comprennent cependant des pays qui se trouvent au Sud de cette ligne (Mexique, …). La mondialisation a initié une transformation
+   des pôles de puissance, qui se multiplient à travers la planète. Toutefois, l’Afrique, qui contient le plus grand nombre de PMA (pays les moins avancés), reste en dehors
+    de cette mondialisation (exceptés quelques pays africains) et peine à se développer.\n\n
+
+La ligne Nord/Sud séparant les pays développés des pays en voie de développement.\n\n
+IV - Le capitalisme : un modèle contesté\n\n
+
+Malgré sa domination mondiale et une expansion qui semble irrésistible, le capitalisme est remis en question et critiqué par deux principales idéologies.\n\n
+1 - Le capitalisme, un modèle puissant mais imparfait\n\n
+
+Le capitalisme est un modèle économique qui émerge vraiment en Europe au XVIIIème siècle sous l’impulsion de l’économiste anglais Adam Smith. 
+Celui-ci développe une théorie du capitalisme fondée sur le libre-échange qui permettrait aux nations de s’enrichir. Le libre-échange préconise une abolition des frontières, 
+ ce qui permet aux nations de commercer librement entre elles dans un avantage mutuel qui leur permet de profiter mutuellement des revenus du commerce. Le protectionnisme 
+ (droits de douane aux frontières) doit donc être aboli pour permettre une libre concurrence totale entre les nations, qui induira les prix les plus bas possibles, 
+ ce qui permettra d’augmenter le pouvoir d’achat des ménages.\n
+La caractéristique la plus frappante et la plus importante du capitalisme est celle développée au XIXème : il s’agit avant tout de faire le plus de profit possible. 
+Pour cela, il faut proposer aux clients des prix attractifs. La valeur ajoutée est la moteur du capitalisme : il s’agit de produire un bien et de le revendre ensuite 
+à un prix supérieur au coût de production. Cela permet de faire des bénéfices et donc d’investir et d’innover, ce qui permet à l’entreprise de proposer des prix attractifs 
+et de nouveaux produits et donc d’augmenter le nombre de ses clients. L’entreprise recherche par tous les moyens à augmenter la productivité de son capital, d’où 
+l’invention de nouvelles machines toujours plus performantes. Mais le capital humain n’est pas en reste : les entreprises veulent une main d’œuvre la moins chère possible,
+ d’où par exemple la délocalisation dans des pays où le coût du travail est moins élevé.\n
+Malgré son succès et sa diffusion dans le monde entier, le capitalisme produit des inégalités criantes, même s’il permet dans l’ensemble d’augmenter le niveau de vie de 
+la population. Ainsi, du XIXème siècle jusqu’à la première guerre mondiale, les ouvriers sont particulièrement exploités par un patronat qui leur fournit tout juste de 
+quoi vivre afin de maximiser ses profits. Les conditions de vie sont très difficiles pour les ouvriers, et donnent lieu à des remises en cause du capitalisme. 
+La diminution du nombre d’ouvriers à partir de 1945 mécontente également les ouvriers. De plus, de nombreuses grandes crises secouent l’économie mondiale
+ (1873, 1929 et même de nos jours en 2008), ce qui donne lieu à des critiques du capitalisme, qui était censé assurer une prospérité continuelle. 
+ C’est dans ce contexte troublé que les premières idéologies contestataires apparaissent.\n\n
+2 - Une idéologie anticapitaliste: le communisme\n\n
+
+Le communisme naît en 1848 avec l’ouvrage de Karl Marx et de Friedrich Engels intitulé « Le Manifeste du parti communiste ». Dans cet ouvrage, les deux auteurs dénoncent
+ les dérives du capitalisme, qui conduirait à une paupérisation des travailleurs, c\'est-à-dire à un appauvrissement des classes populaires de la société, 
+ à savoir le prolétariat. Cette classe sociale dispose de sa seule force de travail mais est plus nombreuse que la classe dirigeante, à savoir la bourgeoisie,
+  représentée par le patronat, qui dispose du capital (machines, usines, …). La pensée marxiste est résumée par la lutte des classes : c\'est-à-dire entre la classe 
+  dominée (le prolétariat) et la classe dominante (la bourgeoisie). Le prolétariat doit faire la révolution pour imposer sa dictature, qui s’achèvera par la disparition 
+  de l’Etat et par une société sans classe, dans laquelle tous les hommes seront heureux.\n
+Le communisme prône la collectivisation des moyens de production afin que l’Etat puisse redistribuer les richesses aux citoyens. Pour mettre fin à l’exploitation dont 
+les classes populaires sont victimes, les bourgeois doivent être éliminés par les prolétaires. Le mot d’ordre de cette société est l’égalité, contrairement aux démocraties 
+libérales qui prônent la liberté avant tout.\n
+Le communisme remporte sa première victoire en Russie en 1917 avec la révolution bolchévique qui renverse le Tsar et qui instaure un régime communiste. Après la seconde 
+guerre mondiale, le communisme s’impose dans de nombreux pays, comme dans les pays de l’Europe de l’Est où les communistes s’emparent du pouvoir par la force ou par la 
+ruse. Après la décolonisation, de nombreux pays deviennent communistes (Mozambique, Angola, Guinée, etc.). Le communisme reste présent dans de nombreux pays jusqu’à la 
+chute de l’URSS en 1991, qui met fin à la guerre froide et qui entraîne dans son sillage l’effondrement de nombreux pays communistes (pays d’Europe de l’Est, Yougoslavie,
+ Yémen, …). Aujourd’hui, seule la Corée du Nord est un pays véritablement communiste. La Chine populaire est toujours dirigée par le parti communiste chinois mais son 
+ économie est de type capitaliste, ce qui n’en fait pas un pays « authentiquement » communiste.\n
+3 - Une remise en cause réformiste du capitalisme : le socialisme\n\n
+
+Le socialisme naît au tout début des années 1900 avec la doctrine sociale de l’Eglise que l’on peut appeler le catholicisme social. 
+Cette pensée novatrice donne lieu à la création d’un syndicat, la CFTC (Confédération Française des Travailleurs Chrétiens) en 1919. 
+Mais les communistes et les socialistes demeurent mélangés jusqu’en 1920, date du congrès de Tours durant lequel les socialistes et les communistes se séparent. 
+Le socialisme ne se veut pas cependant anticapitaliste, mais réformiste. Ainsi, en 1936, le front populaire fait voter des lois sociales et ne remet pas le capitalisme
+ en question.
+    </string>
+
+</resources>
