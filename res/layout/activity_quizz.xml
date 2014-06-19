@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:screenOrientation="portrait"
+    tools:context=".Chapitre1">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnRep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtQuestion"
+        android:onClick="onClickBtnRep1"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnRep1"
+        android:onClick="onClickBtnRep2"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnRep2"
+        android:onClick="onClickBtnRep3"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRep4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnRep3"
+        android:onClick="onClickBtnRep4" />
+
+    <Button
+        android:id="@+id/btnSuivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRep4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:onClick="onClickBtnSuivant"
+        android:text="Suivant" />
+
+</RelativeLayout>

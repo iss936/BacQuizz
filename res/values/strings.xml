@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bac Quizz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bac_l">Bac L</string>
+    <string name="ma_fiche">Ma fiche</string>
+    <string name="fiche_revision">Fiche révision</string>
+    <string name="bac_s">Bac S</string>
+    <string name="bac_es">Bac ES</string>
+    <string name="quizz">Quizz</string>
+    <string name="i">i</string>
+    <string name="votre_question_">Votre question:</string>
+    <string name="vos_r_ponses">Vos réponses</string>
+    <string name="la_bonne_r_ponse">La bonne réponse</string>
+    <string name="mauvaise_r_ponse_1">Mauvaise réponse 1</string>
+    <string name="mauvaise_r_ponse_2">Mauvaise réponse 2</string>
+    <string name="mauvaise_r_ponse_3">Mauvaise réponse 3</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="title_activity_fiche_revision">FicheRevision</string>
+    <string name="title_activity_chapitre1">Chapitre1</string>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="menu_insert">Add Fiche</string>
+    <string name="menu_delete">Delete Fiche</string>
+    <string name="title">Nom de la fiche</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Fiche</string>
+    <string name="cours_chapitre2">
+        I - La Croissance économique et ses effets \n\n
+
+La croissance économique peut se définir comme une augmentation du PIB (Produit Intérieur Brut). C’est une augmentation durable de la production et des profits.
+ La croissance tire son énergie de multiples facteurs. Elle transforme également la société sur plusieurs aspects.\n\n
+1 - Les causes de la croissance économique\n\n
+
+La croissance économique est nourrie par les gains de productivité. Ceux-ci sont souvent la conséquence des innovations. 
+Ainsi, la première révolution industrielle qui apparaît en Angleterre au début du XIXème siècle est le fruit de nouvelles découvertes technologiques, 
+comme la machine à vapeur qui permet par exemple de réduire les coûts de transport. Le progrès technique dont découlent les innovations est fondamental dans la croissance.
+ Mais la croissance économique ne passe pas que par des innovations techniques, mais aussi par l’accroissement de la productivité du travail. 
+ Celui-ci est révolutionné par la DIT (Division Internationale du Travail) conduite par l’OST (Organisation Scientifique du Travail). 
+ Celle-ci élabore des nouvelles méthodes de travail comme le fordisme, qui prône une division des tâches, le travail à la chaîne, la standardisation des produits, 
+ le chronométrage des tâches pour mieux organiser le travail et ainsi faire des gains de productivité.\n\n
+2 - Les effets de la croissance économique\n\n
+
+La croissance économique, quand elle est importante, entraîne une baisse du chômage et augmente la richesse des nations. 
+Mais elle bouleverse aussi la société et la structure même du travail. Ainsi, l’économiste Joseph Schumpeter met en évidence le phénomène de destruction créatrice. 
+Ce phénomène entraîne la disparition de métiers et de méthodes de travail qui sont remplacés par d’autres métiers plus rationnalisés et donc plus productifs.\n
+Les sociétés subissent aussi une transformation sectorielle de leur économie. 
+En effet, une société non développée est caractérisée par une domination du secteur primaire (agriculture, pêche).
+ L’industrialisation des pays sous l’effet d’une forte croissance économique permet de diminuer la part du secteur primaire et d’augmenter celle du secteur secondaire 
+ (industrie) et celle du secteur tertiaire (services). Cette transformation permet de s’affirmer comme un pays développé et riche.\n\n
+II - Les grands cycles économiques : entre croissance et dépression\n\n
+
+1 - Les révolutions industrielles : un temps de croissance économique forte\n\n
+
+La première révolution industrielle a lieu en Angleterre puis en France, entre la fin du XVIIIème siècle et le début du XIXème siècle. 
+En effet, sous l’impulsion de nouvelles découvertes technologiques telles que la machine à vapeur, les gains de productivité s’accroissent,
+ entraînant une forte croissance économique. La deuxième révolution industrielle qui survient au milieu du XIXème siècle a eu lieu grâce aux chemins de fer, à la chimie, 
+ à la sidérurgie, à la métallurgie, etc. Ces nouveaux secteurs d’activités très prometteurs nécessitent beaucoup de main d’œuvre et font ainsi baisser le chômage.
+  De plus, les grosses entreprises émergent et avec elles une recherche toujours plus poussée, ce qui permet des innovations technologiques et une productivité plus forte. 
+  La révolution industrielle est en réalité une industrialisation progressive de l’Europe Occidentale dans un premier temps puis des Etats-Unis et du Japon
+   à partir des années 1850.\n\n
+
+La diffusion du chemin de fer en Europe avant 1914.\n\n
+2 - Une croissance irrégulière parsemée de crises\n\n
+
+L’économiste russe Kondratiev développe une théorie cyclique selon laquelle tous les 50 ans environ, une crise majeure survient. Cette théorie se vérifie. 
+En 1873, une crise majeure survient : c’est la grande dépression qui durera jusqu’en 1896. La dépression est une longue période durant laquelle la croissance ralentit,
+ les profits baissent et le chômage s’installe durablement. Les dépressions s’opposent aux crises, qui sont ponctuelles. De 1896 à 1914, c’est la « belle époque »,
+  marquée par une croissance économique forte. Après la première guerre mondiale, la croissance repart dans les années 1920 et des pays très affaiblis par la guerre,
+   comme l’Allemagne, se relèvent économiquement.\n
+La crise du 24 Octobre 1929 (dite du Jeudi noir) est une crise boursière américaine puis mondiale qui a fait plonger beaucoup d’économies européennes 
+comme celles de l’Allemagne et de l’Angleterre. La France est moins touchée, mais les Etats-Unis sont frappés de plein fouet par cette crise qui entraîne une dépression
+ durant les années 1930. Les Etats-Unis innovent économiquement et décident de faire intervenir l’Etat dans l’économie pour la faire repartir. C’est le New Deal,
+  mis en place par le président Roosevelt, qui redonne du travail à des millions d’américains au chômage en organisant une politique de grands travaux.
+   La France adopte une autre stratégie et préfère se replier sur son empire colonial.\n
+La fin de la seconde guerre mondiale débouche sur une période de prospérité. En effet, le système international mis en place après la guerre est stable, 
+ce qui encourage l’économie. L’Europe entre dans une période que Jean Fourastié appelle « les Trente Glorieuses ». Le vieux continent connaît alors une forte croissance 
+qui lui permet de s’enrichir durablement. Cette croissance ne se limite pas à l’Europe, mais concerne aussi de nombreux pays à travers le monde, dont le Japon est
+ l’exemple le plus fragrant. Cette élévation du niveau de vie est freinée en 1973 par le premier choc pétrolier, causé par la guerre du Kippour. Mais on remarquera 
+ que le système était déjà affaibli par l’abandon de la convertibilité du dollar en or en 1971. A partir de l’année 1973 survient alors une période morose pour 
+ la France et pour de nombreux pays, caractérisée par une croissance faible. L’Angleterre et la RFA connaissent cependant une croissance plutôt élevée, de même que 
+ les pays asiatiques.\n
+La situation économique repart à la fin des années 1990, mais ce processus est arrêté par la crise de 2008, qui fait trembler le système au point d’être sur le point 
+de le faire s’effondrer, ce qui n’arrivera finalement pas. Jusqu’à aujourd’hui la situation reste difficile même si la reprise commence à se faire sentir.\n\n
+III - Les trois économies mondes successives\n\n
+
+Trois économies mondes se succèdent du XIXème siècle à aujourd’hui. On entend par économie monde un système dans lequel un vaste espace acquiert, en raison 
+de l’importance de ses échanges, une unité et une autonomie économique.\n\n
+1 - L’économie monde britannique\n\n
+
+La Grande-Bretagne domine le monde jusqu’en 1914. Son empire colonial est immense et son industrialisation est la plus ancienne. La mondialisation, phénomène 
+d’interpénétration croissante des économies nationales sous l’impulsion du libre-échange, des FTN (Firmes Transnationales) et de l’augmentation des échanges,
+ provoque peu à peu la disparition des frontières et permet essentiellement à l’Angleterre de tirer profit de l’accroissement des échanges par le commerce.
+  La livre Sterling s’impose comme la monnaie dominante du monde.\n\n
+2 - L’économie monde américaine\n\n
+
+Après 1945, les Etats-Unis détiennent 65% du stock d’or mondial. Le pays est alors la première puissance mondiale dans tous les domaines. 
+Le pays sort vainqueur de la seconde guerre mondiale et s’affirme très vite comme une super puissance en instituant un système monétaire par les accords de 
+Bretton Woods en juillet 1944, qui sont favorables au pays. En effet, par ces accords, le pays bénéfice d’une suprématie du dollar dans les échanges internationaux. 
+C’est la seule monnaie convertible en or. Leur puissance financière permet aux Etats-Unis d’aider les pays européens à se reconstruire par le plan Marshall en 1948.
+ Les FMN (Firmes MultiNationales, l’équivalent des FTN) permettent aux américains d’étendre leur civilisation à travers le monde, en diffusant leurs standards et leur 
+ mode de vie. La supériorité américaine se manifeste aussi par des avancées technologiques majeures, telles que la bombe atomique en 1945, suivie en 1952 par la bombe 
+ à hydrogène, encore plus puissante. Dans le domaine spatial, les Etats-Unis rattrapent leur retard face aux Soviétiques et réussissent à envoyer le premier homme sur 
+ la lune en 1969. Le modèle démocratique américain et son mode de confort fascinent le monde, ce qui n’empêche pas les inégalités.\n\n
+3 - Un monde multipolaire\n\n
+
+La fin de la guerre froide en 1991 marque l’effondrement du modèle communiste et le triomphe du capitalisme. Les Etats-Unis restent une super puissance économique
+ mais de nouvelles puissances s’affirment, comme la Chine, qui par ses réformes économiques s’ouvre au monde extérieur et adopte le libre-échange.
+  Cela développe son économie et la place même aujourd’hui au rang de deuxième puissance mondiale, juste derrière les Etats-Unis. Mais d’autres puissances émergent :
+   c’est le cas du Brésil, de l’Inde, de l’Afrique du Sud et maintenant de la Russie. Ces 4 pays, plus la Chine, forment les BRICS
+    (Brésil, Russie, Inde, Chine, Afrique du Sud). Les quatre dragons asiatiques sont eux considérés comme des pays développés à partir des années 1990 : 
+    il s’agit de Hong-Kong, de la Corée du Sud, de Taiwan et de Singapour.\n
+On voit donc que l’Occident (Japon, Europe de l’Ouest, Etats-Unis) n’est plus le centre exclusif du pouvoir économique. Cependant la ligne Nord/Sud est toujours d’actualité.
+ Cette ligne imaginaire sépare les pays du Nord (les plus riches) des pays du Sud (les plus pauvres). Cela est reflété par la Triade, qui est composée de trois pôles 
+ de puissance : l’Europe occidentale, les Etats-Unis et le pôle de l’Asie orientale, lui-même composé de la côte Est chinoise, du Japon, de la Corée du Sud et de Taiwan.
+  Les NPI (Nouveaux Pays Industrialisés) comprennent cependant des pays qui se trouvent au Sud de cette ligne (Mexique, …). La mondialisation a initié une transformation
+   des pôles de puissance, qui se multiplient à travers la planète. Toutefois, l’Afrique, qui contient le plus grand nombre de PMA (pays les moins avancés), reste en dehors
+    de cette mondialisation (exceptés quelques pays africains) et peine à se développer.\n\n
+
+La ligne Nord/Sud séparant les pays développés des pays en voie de développement.\n\n
+IV - Le capitalisme : un modèle contesté\n\n
+
+Malgré sa domination mondiale et une expansion qui semble irrésistible, le capitalisme est remis en question et critiqué par deux principales idéologies.\n\n
+1 - Le capitalisme, un modèle puissant mais imparfait\n\n
+
+Le capitalisme est un modèle économique qui émerge vraiment en Europe au XVIIIème siècle sous l’impulsion de l’économiste anglais Adam Smith. 
+Celui-ci développe une théorie du capitalisme fondée sur le libre-échange qui permettrait aux nations de s’enrichir. Le libre-échange préconise une abolition des frontières, 
+ ce qui permet aux nations de commercer librement entre elles dans un avantage mutuel qui leur permet de profiter mutuellement des revenus du commerce. Le protectionnisme 
+ (droits de douane aux frontières) doit donc être aboli pour permettre une libre concurrence totale entre les nations, qui induira les prix les plus bas possibles, 
+ ce qui permettra d’augmenter le pouvoir d’achat des ménages.\n
+La caractéristique la plus frappante et la plus importante du capitalisme est celle développée au XIXème : il s’agit avant tout de faire le plus de profit possible. 
+Pour cela, il faut proposer aux clients des prix attractifs. La valeur ajoutée est la moteur du capitalisme : il s’agit de produire un bien et de le revendre ensuite 
+à un prix supérieur au coût de production. Cela permet de faire des bénéfices et donc d’investir et d’innover, ce qui permet à l’entreprise de proposer des prix attractifs 
+et de nouveaux produits et donc d’augmenter le nombre de ses clients. L’entreprise recherche par tous les moyens à augmenter la productivité de son capital, d’où 
+l’invention de nouvelles machines toujours plus performantes. Mais le capital humain n’est pas en reste : les entreprises veulent une main d’œuvre la moins chère possible,
+ d’où par exemple la délocalisation dans des pays où le coût du travail est moins élevé.\n
+Malgré son succès et sa diffusion dans le monde entier, le capitalisme produit des inégalités criantes, même s’il permet dans l’ensemble d’augmenter le niveau de vie de 
+la population. Ainsi, du XIXème siècle jusqu’à la première guerre mondiale, les ouvriers sont particulièrement exploités par un patronat qui leur fournit tout juste de 
+quoi vivre afin de maximiser ses profits. Les conditions de vie sont très difficiles pour les ouvriers, et donnent lieu à des remises en cause du capitalisme. 
+La diminution du nombre d’ouvriers à partir de 1945 mécontente également les ouvriers. De plus, de nombreuses grandes crises secouent l’économie mondiale
+ (1873, 1929 et même de nos jours en 2008), ce qui donne lieu à des critiques du capitalisme, qui était censé assurer une prospérité continuelle. 
+ C’est dans ce contexte troublé que les premières idéologies contestataires apparaissent.\n\n
+2 - Une idéologie anticapitaliste: le communisme\n\n
+
+Le communisme naît en 1848 avec l’ouvrage de Karl Marx et de Friedrich Engels intitulé « Le Manifeste du parti communiste ». Dans cet ouvrage, les deux auteurs dénoncent
+ les dérives du capitalisme, qui conduirait à une paupérisation des travailleurs, c\'est-à-dire à un appauvrissement des classes populaires de la société, 
+ à savoir le prolétariat. Cette classe sociale dispose de sa seule force de travail mais est plus nombreuse que la classe dirigeante, à savoir la bourgeoisie,
+  représentée par le patronat, qui dispose du capital (machines, usines, …). La pensée marxiste est résumée par la lutte des classes : c\'est-à-dire entre la classe 
+  dominée (le prolétariat) et la classe dominante (la bourgeoisie). Le prolétariat doit faire la révolution pour imposer sa dictature, qui s’achèvera par la disparition 
+  de l’Etat et par une société sans classe, dans laquelle tous les hommes seront heureux.\n
+Le communisme prône la collectivisation des moyens de production afin que l’Etat puisse redistribuer les richesses aux citoyens. Pour mettre fin à l’exploitation dont 
+les classes populaires sont victimes, les bourgeois doivent être éliminés par les prolétaires. Le mot d’ordre de cette société est l’égalité, contrairement aux démocraties 
+libérales qui prônent la liberté avant tout.\n
+Le communisme remporte sa première victoire en Russie en 1917 avec la révolution bolchévique qui renverse le Tsar et qui instaure un régime communiste. Après la seconde 
+guerre mondiale, le communisme s’impose dans de nombreux pays, comme dans les pays de l’Europe de l’Est où les communistes s’emparent du pouvoir par la force ou par la 
+ruse. Après la décolonisation, de nombreux pays deviennent communistes (Mozambique, Angola, Guinée, etc.). Le communisme reste présent dans de nombreux pays jusqu’à la 
+chute de l’URSS en 1991, qui met fin à la guerre froide et qui entraîne dans son sillage l’effondrement de nombreux pays communistes (pays d’Europe de l’Est, Yougoslavie,
+ Yémen, …). Aujourd’hui, seule la Corée du Nord est un pays véritablement communiste. La Chine populaire est toujours dirigée par le parti communiste chinois mais son 
+ économie est de type capitaliste, ce qui n’en fait pas un pays « authentiquement » communiste.\n
+3 - Une remise en cause réformiste du capitalisme : le socialisme\n\n
+
+Le socialisme naît au tout début des années 1900 avec la doctrine sociale de l’Eglise que l’on peut appeler le catholicisme social. 
+Cette pensée novatrice donne lieu à la création d’un syndicat, la CFTC (Confédération Française des Travailleurs Chrétiens) en 1919. 
+Mais les communistes et les socialistes demeurent mélangés jusqu’en 1920, date du congrès de Tours durant lequel les socialistes et les communistes se séparent. 
+Le socialisme ne se veut pas cependant anticapitaliste, mais réformiste. Ainsi, en 1936, le front populaire fait voter des lois sociales et ne remet pas le capitalisme
+ en question.
+    </string>
+    <string name="cours_chapitre4">
+        I - Les alliances en Europe et dans le monde en 1939\n\n
+
+A la veille de la Seconde Guerre Mondiale, le jeu des alliances est plus complexe que celui de la Première Guerre Mondiale. En effet, certaines alliances sont parfois récentes et même surprenantes.\n
+Les « Alliés » sont composés en 1939 de l’Angleterre et de la France. On peut ajouter à ces deux pays une alliée hésitante, la Pologne.\n
+Les puissances de l’Axe sont composées de l’Italie et de l’Allemagne auxquelles s’ajoutent des régimes satellites ou sympathisants comme la Slovaquie ou la Hongrie, et plus tard le Japon. Cependant, Mussolini sait que son pays n’est pas prêt à faire la guerre et annonce à Hitler en 1939 qu’en cas de conflit, il n’entrerait pas en guerre immédiatement. La Pologne est également alliée ou sympathisante du Reich, malgré les prétentions allemandes sur la ville libre de Dantzig.\n
+Les pays neutres composent la partie essentielle de l’Europe. Le plus important d’entre eux est l’URSS qui, au terme de négociations avec l’Allemagne, a signé le 23 août 1939, le pacte Germano-Soviétique, traité de non-agression entre les deux pays, pourtant idéologiquement opposés. La grande puissance neutre est aussi celle des Etats-Unis, qui ne possèdent qu’une armée dérisoire en 1939, mais dont le potentiel économique et industriel est très important. La grande puissance du pacifique, le Japon, est encore neutre en 1939. On remarquera que la Belgique et la Hollande sont également neutres, ce qui aura de l’importance pour les opérations militaires ultérieures.\n
+Les alliances en Europe à la veille de la 2 ème guerre mondiale\n\n
+
+II - Le déclenchement de la guerre\n\n
+
+Le déclenchement de la guerre se produit le 1 er septembre 1939 avec l’agression de la Pologne par l’Allemagne. En effet, Hitler veut le corridor polonais de Dantzig, peuplé d’allemands, ce que refuse la Pologne. Le conflit est alors inévitable avec la Pologne. Hitler s’est cependant trompé dans ses calculs. Il espérait que les deux grandes démocraties occidentales, la France et l’Angleterre, allaient laisser passer cet acte belliqueux, comme elles l’avaient fait à de maintes reprises auparavant (remilitarisation de la Rhénanie en 1936, affaire des Sudètes en 1938, …). Pourtant, la France et l’Angleterre estiment ne plus pouvoir reculer face à cette agression allemande contre la Pologne et déclarent la guerre à l’Allemagne le 3 août 1939. L’Italie décide de rester neutre et de ne pas soutenir son allié allemand, comme elle le lui avait déjà signifié. En ce qui concerne l’URSS, son attitude est liée au pacte germano-soviétique de 1939, qui comportait une clause secrète prévoyant le partage de la Pologne entre l’URSS et l’Allemagne. Elle envahit donc la Pologne par l’Est le 17 septembre, afin de prendre possession de la zone d’influence prévue par le traité.\n\n
+
+III - Les stratégies et les plans d’action des belligérants\n\n
+
+Du côté des grandes démocraties occidentales, la France et l’Angleterre choisissent une stratégie défensive. Le but est d’éviter les grandes pertes humaines comme en 1914-1918. Le général Gamelin, le commandant en chef de l’armée française, a confiance en la puissante ligne Maginot qui protège la frontière commune avec l’Allemagne à l’Est. Cette ligne de fortifications ne se prolonge pas sur la frontière franco-belge, les belges l’ayant refusée. Si les allemands attaquent, le commandement franco-anglais envisage d’entrer en Belgique pour porter secours à l’armée belge. Le plan franco-anglais semble donc sans faille. Toutefois, le commandement français ne songe pas à ce qu’une force d’invasion puisse arriver par la forêt des Ardennes, car celle-ci est réputée infranchissable par des chars.\n
+Du côté allemand, le mot d’ordre est l’offensive. La stratégie militaire allemande est appelée « blitzkrieg », la guerre éclair. Il s’agit de percer les lignes ennemies en un point précis et de foncer à toute allure en s’enfonçant dans le pays avec des divisions blindées, tout en bénéficiant du soutien de l’aviation. Tout cela est coordonné à l’aide de la radio. Le pays ne veut pas refaire l’erreur de combattre sur deux fronts, comme durant la Première Guerre Mondiale. Il entend donc d’abord s’occuper du front Est, en s’assurant de l’alliance avec l’URSS pour se partager la Pologne. Une fois le front Est hors de danger, l’Allemagne envisage de déclarer la guerre à la France, ce qui provoquera l’entrée en guerre de l’Angleterre aux côtés de la France. Hitler prévoit d’écraser la France puis de faire la paix avec le Royaume-Uni, qui sera contraint de l’accepter en raison de son isolement. L’étape finale est de se tourner vers l’URSS, car pour Hitler, la guerre est inévitable entre les deux idéologies européennes dominantes, à savoir le fascisme et le communisme.\n
+Pour l’URSS, Staline sait que son pays ne sera pas prêt pour la guerre avant 1942. Il conclut donc un pacte de non-agression avec le Japon en 1939 et avec l’Allemagne en août 1939. Néanmoins, il sait comme Hitler que la guerre avec l’Allemagne est inévitable.\n\n
+
+IV - La drôle de guerre (septembre 1939 - avril 1940)\n\n
+
+A la déclaration de guerre des franco-anglais contre le Reich en septembre 1939, les Alliés restent l’arme aux pieds et ne passent pas à l’offensive. L’occasion est pourtant propice à une offensive, car les troupes allemandes sont occupées en Pologne et seules des faibles forces gardent la frontière franco-allemande. Mais les Alliés préconisent la défensive et campent sur leurs positions. La Pologne se fait donc envahir et est écrasée par l’Allemagne et l’URSS, pendant que sur le front Ouest la situation est calme. En un peu plus d’un mois, les armées polonaises sont vaincues, malgré leur courage. Elles capitulent le 6 octobre 1939. La Pologne est maintenant occupée et partagée en deux zones d’influence : l’Ouest aux allemands et l’Est aux soviétiques. Durant cette période, l’inaction des armées alliées nuit à leur moral, de même que la propagande allemande. Celle-ci diffuse des slogans pacifistes comme « Pourquoi faites-vous la guerre ? », qui déstabilisent quelque peu les soldats alliés. Le réveil guerrier sera brutal.\n\n
+
+V - L’invasion du Danemark et la campagne de Norvège (Avril - Mai 1940)\n\n
+
+Le 9 avril 1940, l’armée allemande passe à l’offensive sur le front Nord. Le Danemark est contraint à capituler en 2 heures, le 9 avril. Des forces allemandes envahissent la Norvège de façon très rapide. Cette décision d’invasion est stratégique, car le pays contrôle la route du fer vers l’Allemagne, minerai indispensable à l’industrie allemande. L’armée norvégienne combat vaillamment et tente de résister en se repliant vers le Nord. Les Alliés réagissent et envoient un corps expéditionnaire en Norvège. Celui-ci arrive tardivement dans le pays, le 17 avril. La bataille de Narvik, en avril 1939, voit la victoire des franco-anglais qui remportent une victoire maritime, mais sont incapables d’exploiter ce succès à terre. La situation s’enlise en Norvège et la campagne de France conduira la France et l’Angleterre à rapatrier leurs troupes en France pour s’opposer aux allemands. Les deux pays neutres sont donc entièrement occupés par les allemands.\n\n
+
+VI - La campagne de France (Mai - Juin 1940)\n\n
+
+Le 10 mai 1940, les armées allemandes passent à l’offensive à l’Ouest. La Hollande, pays neutre, est envahie, de même que la Belgique. Les armées allemandes tendent un piège aux forces alliées : Hitler envahit la Belgique pour attirer les armées alliées loin des frontières de l’Est. Son plan est de passer avec ses chars par la forêt des Ardennes, dont la zone est mal défendue, pour ensuite se rabattre vers la mer du Nord, afin d’encercler les armées alliées en Belgique. L’Etat-major allié ne s’attendant pas à une attaque par les Ardennes tombe dans le piège. A l’annonce de l’attaque allemande contre la Belgique, le 10 mai, les forces les plus puissantes et les plus modernes des nations alliées répondent à l’appel à l’aide de la Belgique et s’enfoncent profondément dans le pays afin d’arrêter l’avancée allemande. Pendant ce temps, les chars allemands passent par les Ardennes, bousculent les défenses françaises et foncent vers la mer, encerclant ainsi la meilleure partie des troupes alliées dans une poche que l’on a appelé la poche de Dunkerque. Une gigantesque opération de sauvetage de ces hommes a lieu du 21 mai au 4 juin 1940, qui permet d’évacuer vers l’Angleterre plus de 330 000 hommes, dont 123 000 français. 30 000 hommes, majoritairement français, ont été faits prisonniers par les allemands à la fin de la résistance de la poche. Une bataille navale et aérienne a lieu au-dessus des plages, se soldant par la destruction de nombreux navires et avions. Cela constitue un succès dans l’évacuation des soldats alliés vers l’Angleterre, mais la bataille se solde quand même par une victoire de l’Allemagne, qui met la main sur un énorme matériel.\n
+Après l’évacuation des troupes alliées de Dunkerque, les troupes allemandes envahissent la France. Le pays est envahi durant le mois de juin et la troisième République place à la présidence du conseil le maréchal Pétain, qui demande l’armistice. Celui-ci est signé le 22 juin 1940. La France est coupée en deux : le littoral atlantique et toute la moitié du Nord de la France est occupée, la zone sud restant aux mains du gouvernement français. Les députés de la troisième République votent les pleins pouvoirs au maréchal Pétain le 10 juillet 1940. Celui-ci met fin à la troisième République et instaure son nouveau régime autoritaire à Vichy. Ce nouveau régime ne peut pas être qualifié de fasciste, mais de conservateur. Les premières lois antisémites sont votées en octobre. Le régime est anti francs-maçons, antisémite et plutôt anglophobe, après les attaques anglaises contre la flotte française à Mers-el-Kebir en juillet 1940 et contre Dakar. De plus il collabore avec l’Allemagne.\n\n
+
+VII - Le Blitz (Août 1940-début 1941)\n\n
+
+Après la défaite de la France en 1940, l’Angleterre refuse les offres de paix d’Hitler. S’en suit le Blitz dans le ciel d’Angleterre, qui consiste en des bombardements allemands contre la population anglaise, à des points stratégiques. L’Angleterre tient bon et l’Allemagne subit sa première défaite.\n\n
+
+VIII - L’ère des victoires de l’Axe (1940-1942)\n\n
+
+Mussolini a attaqué la Grèce en octobre 1940, mais son armée est mise en échec contre les grecs. Hitler vient à son secours en Grèce et envahit au passage la Yougoslavie, en avril 1941. Le sud de l’Europe est maintenant aux mains des forces de l’Axe.\n
+Le 22 juin 1941, les allemands et leurs alliés (roumains, italiens, etc.) se lancent à l’attaque de l’URSS. Leur offensive est dans un premier temps marquée par un succès et les forces allemandes arrivent aux portes de Moscou en décembre 1941. Mais les soviétiques contre-attaquent et la ville n’est pas prise. La ville de Leningrad (Saint-Pétersbourg) est encerclée par les allemands, mais résiste. Dans le sud, la ville de Kiev est prise et les allemands, au terme de leur grande offensive de l’été 1942, arrivent aux portes du Caucase. En Afrique du Nord, les puissances de l’Axe combattent les britanniques et parviennent jusqu’à El Alamein, en Egypte, en juin 1942. L’Afrikakorps, commandé par le feld-maréchal Rommel, inflige cependant de sérieux revers aux troupes alliées. A la fin de l’année 1942, les allemands dominent l’Europe, à l’exception de l’Angleterre. Seuls quelques pays neutres sont épargnés par la guerre : il s’agit de l’Espagne, de la Suède, de l’Irlande, du Portugal et de la Suisse.\n
+Dans le Pacifique, les troupes japonaises attaquent et détruisent la flotte américaine à Pearl Harbor le 7 décembre 1941, à l’exception des porte-avions. Cela marque la mondialisation du conflit, avec l’entrée en guerre des américains, puis des anglais et des puissances coloniales présentes dans le Pacifique, contre le Japon, comme les hollandais. Les japonais connaissent une phase d’expansion irrésistible. La possession anglaise d’Hong-Kong tombe entre leurs mains en décembre 1941 et Singapour en février 1942. Les troupes japonaises continuent quelque peu leur avancée en Chine et lancent une offensive en Birmanie. L’Indochine est soumise au Japon, de même que les Indes néerlandaises. Au milieu de l’année 1942, la zone contrôlée par le Japon, appelée « la sphère de coprospérité », est une zone immense englobant d’innombrables îles et d’anciennes possessions coloniales.\n\n
+
+IX - De l’apogée (1942) à la défaite (1945)\n\n
+
+Sur le front Est, malgré les succès allemands, Hitler commet des erreurs stratégiques et, au lieu de concentrer toutes ses forces sur Moscou, il lance ses forces dans le Sud, vers le Caucase. Le froid provoquera également la mort de nombreux allemands, surtout lors de l’hiver 1941-1942, car ceux-ci ne disposent pas d’équipements adaptés. La bataille de Stalingrad (septembre 1942 - février 1943) se termine par une victoire soviétique. Hitler retire ses troupes du Caucase et lance une contre-offensive à Koursk, en juillet 1943. C’est la plus grande bataille de chars de l’histoire. Celle-ci se termine par une défaite allemande. Petit à petit, les forces de l’Axe (allemands, hongrois, roumains, italiens, finlandais, ...) reculent, du fait du nombre beaucoup plus important de soviétiques. L’URSS paye un lourd tribut humain à ces contre-offensives, mais son potentiel démographique lui permet de continuer la guerre et d’avancer toujours plus. Le siège de Leningrad est levé en janvier 1944. L’armée rouge parvient dans les Balkans au cours de l’année 1944 et libère petit à petit la Roumanie, la Bulgarie, la Grèce et l’Albanie. On remarquera que la Yougoslavie s’est libérée toute seule grâce à ses partisans dirigés par Tito.\n
+En Afrique, les allemands sont battus à El Alamein en octobre 1942 par Montgomery et reculent. En effet, le débarquement allié en Afrique du Nord, en novembre 1942, a provoqué le ralliement de l’Algérie, du Maroc et de la Tunisie à la France libre, dirigée par le général de Gaulle. Celui-ci, avec l’aide des anglo-américains, encercle les forces germano-italiennes en Tunisie, qui se rendent en mai 1943. La campagne d’Afrique est terminée.\n
+Sur le front Ouest, le débarquement de Sicile a lieu en juillet 1943. Il entraîne la chute de Mussolini et l’armistice avec les Alliés en septembre 1943. Pourtant, le Duce est sauvé par Hitler et crée une république fasciste à Salo, dans le Nord de l’Italie. L’Italie, après l’armistice, est envahie par les allemands, qui craignent une trahison italienne. La progression alliée est difficile en Italie, du fait de la résistance allemande. Le débarquement en Normandie, le 6 juin 1944, sous le commandement du général américain Eisenhower, est un succès pour les Alliés, et les allemands reculent en quelques mois jusqu’à la frontière allemande. Paris est libérée en août 1944. Un second débarquement a lieu en Provence, en août 1944. Toutefois, il faudra attendre 1945 pour que la guerre soit véritablement portée sur le sol allemand, ce qui n’empêche pas l’Allemagne d’être abondement bombardée par les Alliés.\n
+Dans le Pacifique, les japonais sont arrêtés à la bataille de la mer de Corail, en mai 1942, et battus par les américains à la bataille de Midway, en juin 1942. La bataille de Guadalcanal, d’août 1942 à février 1943, se solde par une défaite militaire terrestre japonaise. Petit à petit, la reconquête a lieu et les Alliés libèrent les territoires conquis par les japonais les années précédentes.\n
+La capitulation allemande sans condition a lieu le 8 mai 1945, après le suicide d’Hitler le 30 avril 1945 dans son bunker et la prise de Berlin par les soviétiques le 2 mai 1945. En ce qui concerne le Japon, le pays est sommé de se rendre, mais refuse. Le 6 août et le 9 août 1945, deux bombes nucléaires sont larguées sur le Japon, respectivement sur les villes d’Hiroshima et de Nagasaki. Ce bombardement américain a pour but de hâter la fin de la guerre et d’éviter l’invasion du Japon, qui aurait coûté de nombreuses pertes américaines. L’empereur ordonne la capitulation. Celle-ci a lieu le 2 septembre 1945, sous l’égide du grand vainqueur de la bataille du Pacifique, le général Mac Arthur. La Seconde Guerre Mondiale est terminée.\n\n
+
+X - La seconde guerre mondiale : une guerre totale\n\n
+
+La Seconde Guerre Mondiale, comme la Première, a mobilisé toutes les ressources des nations, mais de façon encore plus importante.\n
+L’économie de guerre a entraîné la mobilisation de toutes les volontés et de toute l’industrie au service de la guerre. Dans les usines, les femmes ont remplacé les hommes partis au front. Tous les hommes valides sont enrôlés dans l’armée. La propagande connaît un développement spectaculaire et les médias (cinéma, radio, journaux) deviennent des outils de propagande au service de la lutte contre l’ennemi.\n
+La guerre est totale car elle est aussi présente dans le monde entier. L’air, la terre et la mer deviennent des lieux de confrontation, chacun complémentaire à l’autre.\n
+De nouvelles armes sont utilisées de manière moderne, comme l’aviation et les chars. La radio se révèle être un redoutable facteur de cohésion entre les armées, permettant la blitzkrieg. L’arme ultime fait son apparition : il s’agit de l’arme atomique, qui sera employée contre les japonais. A ce jour, c’est la seule fois que l’arme nucléaire a été employée. Les grenades connaissent un perfectionnement important, et on remarque une utilisation accrue des mines. Les lance-flammes font leur apparition. La doctrine militaire connaît également une révolution, avec par exemple la blitzkrieg, qui remet à l’honneur un type de guerre rapide et moderne, oubliée depuis Napoléon.\n\n
+
+XI - Le génocide juif\n\n
+
+La Shoah, l’holocauste ou encore le génocide juif, sont trois expressions qui désignent l’extermination à échelle massive de la population juive européenne par les nazis. Ceux-ci, conformément à « Mein Kampf » et à la doctrine raciste qui est celle d’Hitler, développent une politique radicalement antisémite. Jusqu’en 1942, les juifs étaient simplement expulsés d’Allemagne ou des territoires occupés par celle-ci. En janvier 1942, à la conférence de Wannsee, les hauts dignitaires nazis mettent en place la solution finale, c’est-à-dire l’extermination des juifs de manière systématique. Ainsi sont créés des camps de concentration et d’extermination, dont le plus connu est le camp d’Auschwitz-Birkenau. On estime à entre 5 et 6 millions le nombre de juifs tués pendant la Seconde Guerre Mondiale. Les juifs sont originaires de tous les pays européens. Ainsi, par exemple en France, la rafle du Vel’d’Hiv de juillet 1942 entraîne la déportation de milliers de juifs vers les camps. Les tziganes, les communistes et les homosexuels sont également persécutés par les nazis. Les exécutions ont lieu le plus souvent dans les chambres à gaz mais aussi parfois par fusillades.\n\n
+
+XII - L’Europe au lendemain de la seconde guerre mondiale\n\n
+
+Bilan matériel et humain : au sortir de la Seconde Guerre Mondiale, l’Europe est en ruine et doit se reconstruire. L’Allemagne est un champ de ruines, de même qu’en Russie ou en Europe centrale. Les pertes s’élèvent au total à plus de 64 millions de personnes. On remarquera que les civils ont été plus touchés que les militaires, à la différence du 1 er conflit mondial, avec 42 millions de civils tués contre 25 millions de militaires. L’URSS est le pays qui a subi le plus de pertes, avec 21 millions de personnes tuées, suivie de près par la Chine, avec 20 millions de morts, dus en grande partie aux atrocités japonaises commises en Chine. Les procès de Tokyo de 1946-1948 jugent les criminels de guerre japonais. En effet, les japonais ont, par leur mauvais traitement et leur mépris violent envers ces soldats, tué des milliers de prisonniers anglais et américains. Le procès de Nuremberg, qui se tient en 1945-1946, juge quant à lui les criminels de guerre nazis. La notion de « crime contre l’humanité » apparaît pour la 1 ère fois.\n
+Bilan en termes de puissance : l’Europe a perdu le leadership mondial et se retrouve incapable de se relever sans aide extérieure. Elle a perdu beaucoup de prestige, et les mouvements indépendantistes dans les colonies se développent.\n
+Bilan territorial : de nombreuses rectifications de frontières ont lieu. La frontière à l’Est de la Pologne est repoussée par l’URSS et en compensation, la Pologne voit sa frontière s’agrandir à l’Ouest, au détriment de l’Allemagne, dont la frontière orientale s’arrête désormais à la ligne Oder-Neisse. La Prusse orientale est partagée entre l’URSS et la Pologne, et les pays baltes sont rattachés à l’URSS. Celle-ci gagne aussi la Ruthénie subcarpatique (partie orientale de la Tchécoslovaquie), la Bessarabie (région nord de Roumanie) et récupère les îles Kouriles ainsi que la partie sud de l’île de Sakhaline. L’URSS est la grande gagnante des modifications territoriales de 1945, elle s’agrandit aussi de terres conquises sur la Finlande. L’Allemagne se trouve réduite et perd son bastion historique de Prusse. La Hongrie est aussi réduite, de même que la Roumanie. L’Italie perd ses colonies et une rectification est effectuée sur la frontière franco-italienne au bénéfice de la France, avec l’annexion de la commune de Tende. Les alliés de l’Allemagne payent donc territorialement le prix de la défaite.\n
+Bilan institutionnel : la SDN est supprimée en 1946 et remplacée par l’ONU (Organisation des Nations Unies). Celle-ci a été instituée par la charte de San Francisco, adoptée en juin 1946. L’ONU est composée de toutes les nations indépendantes. Les 5 membres permanents du conseil de sécurité sont les Etats-Unis, l’URSS, la Chine, la France et l’Angleterre. Ces 5 puissances permanentes disposent d’un droit de véto. Cette configuration est toujours en place aujourd’hui.\n
+La Seconde Guerre Mondiale est donc à l’origine du nouvel ordre mondial actuel, encore fondé sur la victoire de 1945. On remarque aussi les premières tensions entre l’URSS et les puissances occidentales, ce qui va donner lieu à la guerre froide.
+    </string>
+
+</resources>
