@@ -17,11 +17,7 @@ public class FicheRevision extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-<<<<<<< HEAD
 		String[] myList = new String[] {"Une aire en expansion l'Asie orientale","La mondialisation","Les mutations en France depuis 1945","La Seconde Guerre Mondiale"}; 
-=======
-		String[] myList = new String[] {"Une aire en expansion l'Asie orientale","La mondialisation","Les mutations en France depuis 1945",}; 
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 		setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,myList));
 		Bundle nomBundle = this.getIntent().getExtras();
 		exercice = nomBundle.getString("faire");
@@ -29,11 +25,6 @@ public class FicheRevision extends ListActivity {
 			setTitle("Quizz");
 		if(exercice.contains("ficheRevision"))
 			setTitle("Fiche révision");
-<<<<<<< HEAD
-=======
-//		if(exercice.contains("ficheRevision") == true)
-//			Toast.makeText(getApplicationContext(), exercice.toString(), Toast.LENGTH_SHORT).show();
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 	}
 
 	@Override
@@ -43,11 +34,7 @@ public class FicheRevision extends ListActivity {
 //		final Intent i ;		
 		
 //		int indice =(int) id;
-<<<<<<< HEAD
 		final Class[] mesClasses = new Class[]{Chapitre1.class, Chapitre2.class,Chapitre3.class, Chapitre4.class};
-=======
-		final Class[] mesClasses = new Class[]{Chapitre1.class, Chapitre2.class,Chapitre3.class};
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 		Object o = this.getListAdapter().getItem(position);
 		final Bundle objetbunble = new Bundle();
 		
@@ -106,18 +93,6 @@ public class FicheRevision extends ListActivity {
     			}
     		}
 		}
-<<<<<<< HEAD
-=======
-		
-		
-		
-       
-        
-			
-//			startActivity(FicheRevision.this, Chapitre1.class);
-//		Intent intent = new Intent(this, Chapitre1.class);
-//		this.startActivity(intent);
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 	}
 
 	

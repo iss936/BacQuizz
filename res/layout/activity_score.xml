@@ -21,29 +21,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:onClick="onClickRetourChapitre"
-<<<<<<< HEAD
         android:text="Retourner à la liste des chapitres" />
-=======
-        android:text="retourner à la liste des chapitres" />
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:onClick="onClickRetourMenu"
         android:text="Retourner au menu" />
-=======
-        android:layout_alignRight="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="20dp"
-        android:onClick="onClickRetourMenu"
-        android:text="retourner au menu" />
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 
 </RelativeLayout>

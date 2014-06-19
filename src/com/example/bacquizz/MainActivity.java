@@ -1,18 +1,12 @@
 package com.example.bacquizz;
 
 import android.os.Bundle;
-<<<<<<< HEAD
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-=======
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Intent;
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
 import android.view.Menu;
 import android.view.View;
 
@@ -21,11 +15,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
         ActionBar bar = getActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#D90000")));
-=======
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
         setContentView(R.layout.activity_main);
     }
 

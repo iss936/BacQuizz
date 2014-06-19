@@ -67,12 +67,9 @@
         <activity
             android:name="com.example.bacquizz.Chapitre3">
         </activity>
-<<<<<<< HEAD
         <activity android:name="com.example.bacquizz.Chapitre4">
             
         </activity>
-=======
->>>>>>> 6ac44a2ee7d0f6d6f3039505167754541d75f7f2
         
         <activity android:name="com.example.bacquizz.Quizz"
              android:screenOrientation="portrait">
