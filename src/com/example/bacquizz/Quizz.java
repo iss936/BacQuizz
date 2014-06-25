@@ -5,9 +5,11 @@ import java.util.Collections;
 import java.util.List;
 
 import android.R.color;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,6 +36,8 @@ public class Quizz extends Activity implements OnClickListener{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
+	    ActionBar bar = getActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
 	    setContentView(R.layout.activity_quizz);
 	    // on récupère des paramètres 
 	    Bundle nomBundle = this.getIntent().getExtras();
@@ -229,17 +233,17 @@ public class Quizz extends Activity implements OnClickListener{
 			    	maTextView.setText(questionFromBDD.getQuestions());
 			    	
 			    	lesReponses = randomReponse();
+			    	
 			    	btnRep1.setText(questionFromBDD.getUneReponse(lesReponses.get(0)));
 			    	btnRep2.setText(questionFromBDD.getUneReponse(lesReponses.get(1)));
 			    	btnRep3.setText(questionFromBDD.getUneReponse(lesReponses.get(2)));
 			    	btnRep4.setText(questionFromBDD.getUneReponse(lesReponses.get(3)));
 			    	
 			    	btnSuivant.setVisibility(View.INVISIBLE);
-			    	
-			    	btnRep1.setBackgroundColor(color.darker_gray);
-			    	btnRep2.setBackgroundColor(color.darker_gray);
-			    	btnRep3.setBackgroundColor(color.darker_gray);
-			    	btnRep4.setBackgroundColor(color.darker_gray);
+			    	btnRep1.setBackgroundResource(android.R.drawable.btn_default);
+			    	btnRep2.setBackgroundResource(android.R.drawable.btn_default);
+			    	btnRep3.setBackgroundResource(android.R.drawable.btn_default);
+			    	btnRep4.setBackgroundResource(android.R.drawable.btn_default);
 				}
 				else
 				{

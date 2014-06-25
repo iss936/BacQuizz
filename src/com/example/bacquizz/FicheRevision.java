@@ -1,9 +1,12 @@
 package com.example.bacquizz;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -16,7 +19,8 @@ public class FicheRevision extends ListActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+		ActionBar bar = getActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
 		String[] myList = new String[] {"Une aire en expansion l'Asie orientale","La mondialisation","Les mutations en France depuis 1945","La Seconde Guerre Mondiale"}; 
 		setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,myList));
 		Bundle nomBundle = this.getIntent().getExtras();

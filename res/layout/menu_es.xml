@@ -4,31 +4,53 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-   <Button
-       android:id="@+id/ma_fiche"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="72dp"
-       android:onClick="onClickMaFiche"
-       android:text="@string/ma_fiche" />
-
     <Button
         android:id="@+id/quizz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ma_fiche"
-        android:layout_centerHorizontal="true"
-        android:text="@string/quizz"
-        android:onClick="onClickQuizz" />
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
+        android:minHeight="60dp"
+        android:minWidth="200dp"
+        android:onClick="onClickQuizz"
+        android:text="@string/quizz" />
 
     <Button
         android:id="@+id/fiche_revision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/quizz"
+        android:layout_alignLeft="@+id/quizz"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/mybutton"
+        android:minHeight="60dp"
+        android:minWidth="200dp"
+        android:onClick="onClickFicheRevision"
+        android:text="@string/fiche_revision" />
+
+    <Button
+        android:id="@+id/ma_fiche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quizz"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/mybutton"
+        android:minHeight="60dp"
+        android:minWidth="200dp"
+        android:onClick="onClickMaFiche"
+        android:text="@string/ma_fiche" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/fiche_revision"
-        android:onClick="onClickFicheRevision"/>
+        android:layout_marginTop="42dp"
+        android:text="Histoire - Géographie"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
 
 </RelativeLayout>

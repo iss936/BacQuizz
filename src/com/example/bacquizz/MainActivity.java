@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActionBar bar = getActionBar();
-        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#D90000")));
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
         setContentView(R.layout.activity_main);
     }
 
