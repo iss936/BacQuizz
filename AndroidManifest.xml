@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.bacquizz.MainActivity"
+            android:name="com.example.bacquizz.MenuES"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,31 +23,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.bacquizz.MenuES"
-            android:label="Bac ES" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.bacquizz.MenuL"
-            android:label="Bac L" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.bacquizz.MenuS"
-            android:label="Bac S" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.example.bacquizz.AddFiche"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bacquizz.Fiche"
+            android:label="Ma fiche" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
         <activity
@@ -83,10 +69,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="Notepadv3">
-            <intent-filter></intent-filter>
-        </activity>
-        <activity android:name="NoteEdit">
+        <activity android:name="FicheEdit">
             <intent-filter></intent-filter>
         </activity>
         

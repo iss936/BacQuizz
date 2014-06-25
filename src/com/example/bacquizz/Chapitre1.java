@@ -1,9 +1,12 @@
 package com.example.bacquizz;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -15,6 +18,8 @@ public class Chapitre1 extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		ActionBar bar = getActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
 		setContentView(R.layout.activity_chapitre1);
 		setTitle("Une aire en expension l'Asie orientiale");
 //		mBtnQuizz = (Button) findViewById(R.id.btnQuizz);

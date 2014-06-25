@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import android.R.color;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
@@ -55,7 +54,7 @@ public class Quizz extends Activity implements OnClickListener{
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 //				Toast.makeText(getApplicationContext(), "Fiche enregistrée !", Toast.LENGTH_SHORT).show();
-				btnSuivant.setVisibility(v.VISIBLE);
+				btnSuivant.setVisibility(View.VISIBLE);
 				if(questionFromBDD.getRep1() != btnRep1.getText())
 				{
 					 // on rend les bouton non-cliquables
@@ -99,7 +98,7 @@ public class Quizz extends Activity implements OnClickListener{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				btnSuivant.setVisibility(v.VISIBLE);
+				btnSuivant.setVisibility(View.VISIBLE);
 				if(questionFromBDD.getRep1() != btnRep2.getText())
 				{
 					 btnRep1.setEnabled(false);
@@ -138,7 +137,7 @@ public class Quizz extends Activity implements OnClickListener{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				btnSuivant.setVisibility(v.VISIBLE);
+				btnSuivant.setVisibility(View.VISIBLE);
 				if(questionFromBDD.getRep1() != btnRep3.getText())
 				{
 					 btnRep1.setEnabled(false);
@@ -177,7 +176,7 @@ public class Quizz extends Activity implements OnClickListener{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				btnSuivant.setVisibility(v.VISIBLE);
+				btnSuivant.setVisibility(View.VISIBLE);
 				if(questionFromBDD.getRep1() != btnRep4.getText())
 				{
 					 btnRep1.setEnabled(false);
