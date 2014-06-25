@@ -28,7 +28,7 @@ public class MenuES extends Activity{
 	
 	public void onClickMaFiche(View v)
 	{
-		Intent intent = new Intent(this, Notepadv3.class);
+		Intent intent = new Intent(this, Fiche.class);
 		this.startActivity(intent);
 	}
 	
