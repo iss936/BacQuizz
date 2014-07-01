@@ -40,33 +40,20 @@ public class FichesDbAdapter {
 	public static final String KEY_TITLE = "title";
 	public static final String KEY_ROWID = "_id";
 	
-	//table mon_quizz
-	private static final String KEY_MIDQ = "id";
-	private static final String KEY_MQUESTION = "question";
-	private static final String KEY_MREP1 = "rep1";
-	private static final String KEY_MREP2 = "rep2";
-	private static final String KEY_MREP3 = "rep3";
-	private static final String KEY_MREP4 = "rep4";
-//	private static final String KEY_ORDRE = "ordre";
-	private static final String KEY_ID_FICHE = "idFiche";
 	
-	private static final String TAG = "NotesDbAdapter";
+	private static final String TAG = "FichesDbAdapter";
 	private DatabaseHelper mDbHelper;
 	private SQLiteDatabase mDb;
 
 	/**
 	 * Database creation sql statement
 	 */
-	private static final String DATABASE_CREATE = "create table fiches (_id integer primary key autoincrement, "
-			+ "title text not null); " +
-			"create table mon_quizz(id integer primary key autoincrement," +
-			"question text not null, rep1 text not null, rep2 text not null, rep3 text not null, rep4 text not null," +
-			"idFiche integer not null";
+	private static final String DATABASE_CREATE_FICHE = "create table fiches (_id integer primary key autoincrement, "
+			+ "title text not null); ";
 
 	private static final String DATABASE_NAME = "data";
 	private static final String TABLE_FICHE = "fiches";
-	private static final String TABLE_MON_QUIZZ = "mon_quizz";
-	private static final int DATABASE_VERSION = 10;
+	private static final int DATABASE_VERSION = 11;
 
 	private final Context mCtx;
 
@@ -79,7 +66,7 @@ public class FichesDbAdapter {
 		@Override
 		public void onCreate(SQLiteDatabase db) {
 
-			db.execSQL(DATABASE_CREATE);
+			db.execSQL(DATABASE_CREATE_FICHE);
 		}
 
 		@Override
@@ -87,7 +74,7 @@ public class FichesDbAdapter {
 			Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
 					+ newVersion + ", which will destroy all old data");
 			db.execSQL("DROP TABLE IF EXISTS fiches");
-			db.execSQL("DROP TABLE IF EXISTS mon_quizz");
+			db.execSQL("DROP TABLE IF EXISTS mon_quizz2");
 			onCreate(db);
 		}
 	}
@@ -140,29 +127,7 @@ public class FichesDbAdapter {
 
 		return mDb.insert(TABLE_FICHE, null, initialValues);
 	}
-	
-	/**
-	 * Create a new question using the rep1,...3 provided. If the note is
-	 * successfully created return the new rowId for that note, otherwise return
-	 * a -1 to indicate failure.
-	 * 
-	 * @param question
-	 * @param rep1...4
-	 * @param idFiche
-	 *            the title of the note
-	 * @return rowId or -1 if failed
-	 */
-	public long createQuestion(String question, String rep1, String rep2, String rep3, String rep4,int idFiche) {
-		ContentValues initialValues = new ContentValues();
-		initialValues.put(KEY_MQUESTION, question);
-		initialValues.put(KEY_MREP1, rep1);
-		initialValues.put(KEY_MREP2, rep2);
-		initialValues.put(KEY_MREP3, rep3);
-		initialValues.put(KEY_MREP4, rep4);
-		initialValues.put(KEY_ID_FICHE, idFiche);
 
-		return mDb.insert(TABLE_MON_QUIZZ, null, initialValues);
-	}
 	
 	//------------------------------DELETE-------------------------------------
 	/**
@@ -177,18 +142,7 @@ public class FichesDbAdapter {
 		return mDb.delete(TABLE_FICHE, KEY_ROWID + "=" + rowId, null) > 0;
 	}
 	
-	/**
-	 * Delete the question with the given rowId
-	 * 
-	 * @param rowId
-	 *            id of question to delete
-	 * @return true if deleted, false otherwise
-	 */
-	public boolean deleteQuestion(long rowId) {
 
-		return mDb.delete(TABLE_MON_QUIZZ, KEY_MIDQ + "=" + rowId, null) > 0;
-	}
-	
 	//------------------------------SELECT-------------------------------------
 	/**
 	 * Return a Cursor over the list of all fiches in the database
@@ -222,23 +176,6 @@ public class FichesDbAdapter {
 
 	}
 	
-	public Cursor fetchQuestion(long rowId) throws SQLException {
-
-		Cursor mCursor =
-
-		mDb.query(true, TABLE_MON_QUIZZ, new String[] { KEY_MIDQ, KEY_MQUESTION, KEY_MREP1,KEY_MREP2,KEY_MREP3,KEY_MREP4,KEY_ID_FICHE}, KEY_MIDQ + "=" + rowId, null, null, null, null,
-				null);
-		if (mCursor != null) {
-			mCursor.moveToFirst();
-		}
-		return mCursor;
-
-	}
-	
-	public Cursor fetchAllQuestions() {
-
-		return mDb.query(TABLE_MON_QUIZZ, new String[] { KEY_MIDQ, KEY_MQUESTION, KEY_MREP1,KEY_MREP2,KEY_MREP3,KEY_MREP4,KEY_ID_FICHE }, null, null, null, null, null);
-	}
 	//------------------------------UPDATE-------------------------------------
 	/**
 	 * Update the note using the details provided. The note to be updated is
@@ -258,13 +195,4 @@ public class FichesDbAdapter {
 		return mDb.update(TABLE_FICHE, args, KEY_ROWID + "=" + rowId, null) > 0;
 	}
 	
-	public boolean updateQuestion(long rowId, String question, String rep1, String rep2, String rep3, String rep4) {
-		ContentValues args = new ContentValues();
-		args.put(KEY_MQUESTION, question);
-		args.put(KEY_MREP1, rep1);
-		args.put(KEY_MREP2, rep2);
-		args.put(KEY_MREP3, rep3);
-		args.put(KEY_MREP4, rep4);
-		return mDb.update(TABLE_MON_QUIZZ, args, KEY_MIDQ + "=" + rowId, null) > 0;
-	}
 }

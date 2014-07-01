@@ -4,13 +4,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/editText2" >
+        android:layout_below="@+id/edtQuestion" >
         
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:scrollbars="vertical" >
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -20,7 +19,7 @@
         android:text="@string/votre_question_" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
@@ -34,13 +33,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/edtQuestion"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="@string/vos_r_ponses" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edtRep1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
@@ -49,37 +48,37 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edtRep2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/edtRep1"
         android:layout_centerHorizontal="true"
         android:hint="@string/mauvaise_r_ponse_1"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edtRep3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/edtRep2"
         android:layout_centerHorizontal="true"
         android:hint="@string/mauvaise_r_ponse_2"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/edtRep4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
+        android:layout_below="@+id/edtRep3"
         android:layout_centerHorizontal="true"
         android:hint="@string/mauvaise_r_ponse_3"
         android:inputType="text" />
 
     <Button
-        android:id="@+id/btnQuizz"
+        android:id="@+id/btnSaveQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
+        android:layout_below="@+id/edtRep4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="@string/enregistrer" 

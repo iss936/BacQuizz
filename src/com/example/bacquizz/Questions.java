@@ -39,6 +39,18 @@ public class Questions {
 		this.rep4 = rep4;
 		this.idChapitre = idChapitre;
 	}
+	
+	//4 questions sans id
+		public Questions( String questions, String rep1, String rep2,
+				String rep3, String rep4, int idChapitre) {
+			super();
+			this.questions = questions;
+			this.rep1 = rep1;
+			this.rep2 = rep2;
+			this.rep3 = rep3;
+			this.rep4 = rep4;
+			this.idChapitre = idChapitre;
+		}
 	// 4 questions+ordre de réponse 
 	public Questions( String questions, String rep1, String rep2,
 			String rep3, String rep4, String ordre, int idChapitre) {
