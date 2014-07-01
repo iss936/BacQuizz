@@ -96,7 +96,7 @@ public class QuestionsBdd {
 		//Création d'un ContentValues (fonctionne comme une HashMap)
 		ContentValues values = new ContentValues();
 		//on lui ajoute une valeur associé à une clé (qui est le nom de la colonne dans laquelle on veut mettre la valeur)
-		values.put(COL_IDQ, 1);
+//		values.put(COL_IDQ, 1);
 		values.put(COL_MQUESTION, question.getQuestions());
 		values.put(COL_MREP1, question.getRep1());
 		values.put(COL_MREP2, question.getRep2());

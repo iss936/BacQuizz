@@ -47,7 +47,7 @@ public class Fiche extends ListActivity {
 		super.onCreate(savedInstanceState);
 		ActionBar bar = getActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
-		setContentView(R.layout.notes_list);
+		setContentView(R.layout.fiches_list);
 		mDbHelper = new FichesDbAdapter(this);
 		mDbHelper.open();
 		fillData();
@@ -68,7 +68,7 @@ public class Fiche extends ListActivity {
 
 		// Now create a simple cursor adapter and set it to display
 		SimpleCursorAdapter notes = new SimpleCursorAdapter(this,
-				R.layout.notes_row, notesCursor, from, to);
+				R.layout.fiches_row, notesCursor, from, to);
 		setListAdapter(notes);
 	}
 

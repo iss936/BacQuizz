@@ -28,9 +28,9 @@ public final class R {
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f08000b;
-        public static final int TextView1=0x7f08001d;
+        public static final int TextView1=0x7f08001c;
         public static final int action_settings=0x7f080023;
-        public static final int btnAddQuestion=0x7f080021;
+        public static final int btnAddQuestion=0x7f080020;
         public static final int btnQuizz=0x7f080007;
         public static final int btnQuizz2=0x7f080002;
         public static final int btnQuizz3=0x7f080003;
@@ -43,23 +43,23 @@ public final class R {
         public static final int button1=0x7f080013;
         public static final int button2=0x7f080014;
         public static final int checkedTextView1=0x7f080001;
-        public static final int confirm=0x7f080020;
+        public static final int confirm=0x7f08001f;
         public static final int edtQuestion=0x7f080016;
         public static final int edtRep1=0x7f080017;
         public static final int edtRep2=0x7f080018;
         public static final int edtRep3=0x7f080019;
         public static final int edtRep4=0x7f08001a;
         public static final int fiche_revision=0x7f080009;
-        public static final int listViewEs=0x7f08001c;
+        public static final int listViewEs=0x7f080021;
         public static final int ma_fiche=0x7f080008;
         public static final int quizz=0x7f08000a;
         public static final int scrollView1=0x7f080015;
-        public static final int tableRow1=0x7f08001f;
+        public static final int tableRow1=0x7f08001e;
         public static final int text1=0x7f080022;
         public static final int textAreaScroller=0x7f080005;
         public static final int textView1=0x7f080004;
         public static final int textView2=0x7f080006;
-        public static final int title=0x7f08001e;
+        public static final int title=0x7f08001d;
         public static final int txtQuestion=0x7f08000c;
         public static final int txtScore=0x7f080012;
         public static final int view1=0x7f080000;
@@ -73,13 +73,13 @@ public final class R {
         public static final int activity_quizz=0x7f030005;
         public static final int activity_score=0x7f030006;
         public static final int add_fiche=0x7f030007;
-        public static final int fiche_revision=0x7f030008;
-        public static final int menu_es=0x7f030009;
-        public static final int menu_l=0x7f03000a;
-        public static final int menu_s=0x7f03000b;
-        public static final int note_edit=0x7f03000c;
-        public static final int notes_list=0x7f03000d;
-        public static final int notes_row=0x7f03000e;
+        public static final int fiche_edit=0x7f030008;
+        public static final int fiche_revision=0x7f030009;
+        public static final int fiches_list=0x7f03000a;
+        public static final int fiches_row=0x7f03000b;
+        public static final int menu_es=0x7f03000c;
+        public static final int menu_l=0x7f03000d;
+        public static final int menu_s=0x7f03000e;
     }
     public static final class menu {
         public static final int chapitre1=0x7f070000;

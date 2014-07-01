@@ -58,7 +58,7 @@ public class FicheEdit extends Activity {
 		mesQuestionsBdd = new QuestionsBdd(this);
 		ActionBar bar = getActionBar();
 	    bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#345953")));
-		setContentView(R.layout.note_edit);
+		setContentView(R.layout.fiche_edit);
 		setTitle("Edit Fiche");
 		// écouteur sur les différents objets de l'activité
 		btnAddQuestion= (Button) findViewById(R.id.btnAddQuestion);
@@ -141,7 +141,7 @@ public class FicheEdit extends Activity {
 										String titreChapitre = (note.getString(note
 												.getColumnIndexOrThrow(FichesDbAdapter.KEY_TITLE)).toString());
 										Toast.makeText(getApplicationContext(), "Question enregistré dans la fiche! "+titreChapitre, Toast.LENGTH_SHORT).show();
-										Toast.makeText(getApplicationContext(), "Question:: "+mesQuestionsBdd.getQuestion2(1).getIdChapitre(), Toast.LENGTH_SHORT).show();
+										Toast.makeText(getApplicationContext(), "Question:: "+mesQuestionsBdd.getQuestion2(2).getQuestions(), Toast.LENGTH_SHORT).show();
 									}
 										
 								}
