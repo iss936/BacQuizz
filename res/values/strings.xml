@@ -22,10 +22,12 @@
     <string name="title_activity_chapitre1">Chapitre1</string>
     <string name="no_notes">Aucune Fiche</string>
     <string name="no_questions">Aucune Questions</string>
-    <string name="menu_insert">Add Fiche</string>
-    <string name="menu_delete">Delete Fiche</string>
-    <string name="menu_insert_question">Add Question</string>
-    <string name="menu_delete_question">Delete Question</string>
+    <string name="menu_insert">Ajouter une fiche</string>
+    <string name="menu_delete">Supprimer la fiche</string>
+    <string name="menu_insert_question">Ajouter une question</string>
+    <string name="menu_delete_question">Supprimer la question </string>
+    <string name="menu_quizz"> Faire le quizz de cette fiche</string>
+    <string name="menu_envoi_quizz"> envoyer ce quizz à un ami</string>
     <string name="title">Nom de la fiche</string>
     <string name="body">Body</string>
     <string name="confirm">Confirm</string>

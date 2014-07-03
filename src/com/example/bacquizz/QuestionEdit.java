@@ -28,8 +28,11 @@ import android.widget.EditText;
 
 public class QuestionEdit extends Activity {
 
-	private EditText mTitleText;
-	private EditText mBodyText;
+	private EditText edtQuestion;
+	private EditText edtRep1;
+	private EditText edtRep2;
+	private EditText edtRep3;
+	private EditText edtRep4;
 	private Long mRowId;
 	private QuestionsDbAdapter mDbHelper;
 
@@ -44,17 +47,19 @@ public class QuestionEdit extends Activity {
 		setContentView(R.layout.question_edit);
 		setTitle(R.string.edit_note);
 
-		mTitleText = (EditText) findViewById(R.id.title);
-		mBodyText = (EditText) findViewById(R.id.body);
-
+		edtQuestion = (EditText) findViewById(R.id.edtQuestion);
+		edtRep1 = (EditText) findViewById(R.id.edtRep1);
+		edtRep2 = (EditText) findViewById(R.id.edtRep2);
+		edtRep3 = (EditText) findViewById(R.id.edtRep3);
+		edtRep4 = (EditText) findViewById(R.id.edtRep4);
 		Button confirmButton = (Button) findViewById(R.id.confirm);
 
 		mRowId = (savedInstanceState == null) ? null
 				: (Long) savedInstanceState
-						.getSerializable(QuestionsDbAdapter.KEY_ROWID);
+						.getSerializable(QuestionsDbAdapter.KEY_MROWID);
 		if (mRowId == null) {
 			Bundle extras = getIntent().getExtras();
-			mRowId = extras != null ? extras.getLong(QuestionsDbAdapter.KEY_ROWID)
+			mRowId = extras != null ? extras.getLong(QuestionsDbAdapter.KEY_MROWID)
 					: null;
 		}
 
@@ -72,12 +77,18 @@ public class QuestionEdit extends Activity {
 
 	private void populateFields() {
 		if (mRowId != null) {
-			Cursor note = mDbHelper.fetchNote(mRowId);
+			Cursor note = mDbHelper.fetchQuestion(mRowId);
 			startManagingCursor(note);
-			mTitleText.setText(note.getString(note
-					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_TITLE)));
-			mBodyText.setText(note.getString(note
-					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_BODY)));
+			edtQuestion.setText(note.getString(note
+					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_MQUESTION)));
+			edtRep1.setText(note.getString(note
+					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_MREP1)));
+			edtRep2.setText(note.getString(note
+					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_MREP2)));
+			edtRep3.setText(note.getString(note
+					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_MREP3)));
+			edtRep4.setText(note.getString(note
+					.getColumnIndexOrThrow(QuestionsDbAdapter.KEY_MREP4)));
 		}
 	}
 
@@ -85,7 +96,7 @@ public class QuestionEdit extends Activity {
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
 		saveState();
-		outState.putSerializable(QuestionsDbAdapter.KEY_ROWID, mRowId);
+		outState.putSerializable(QuestionsDbAdapter.KEY_MROWID, mRowId);
 	}
 
 	@Override
@@ -101,16 +112,18 @@ public class QuestionEdit extends Activity {
 	}
 
 	private void saveState() {
-		String title = mTitleText.getText().toString();
-		String body = mBodyText.getText().toString();
-
+		String question = edtQuestion.getText().toString();
+		String rep1 = edtRep1.getText().toString();
+		String rep2 = edtRep2.getText().toString();
+		String rep3 = edtRep3.getText().toString();
+		String rep4 = edtRep4.getText().toString();
 		if (mRowId == null) {
-			long id = mDbHelper.createNote(title, body);
+			long id = mDbHelper.createQuestion(question, rep1,rep2,rep3,rep4);
 			if (id > 0) {
 				mRowId = id;
 			}
 		} else {
-			mDbHelper.updateNote(mRowId, title, body);
+			mDbHelper.updateQuestion(mRowId, question, rep1,rep2,rep3,rep4);
 		}
 	}
 

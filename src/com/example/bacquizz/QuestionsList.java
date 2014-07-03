@@ -39,6 +39,8 @@ public class QuestionsList extends ListActivity {
 
 	private static final int INSERT_ID = Menu.FIRST;
 	private static final int DELETE_ID = Menu.FIRST + 1;
+	private static final int QUIZZ_ID = Menu.FIRST + 2;
+	private static final int ENVOI_QUIZZ_ID = Menu.FIRST + 3;
 
 	private QuestionsDbAdapter mDbHelper;
 	private long idFiche;
@@ -73,7 +75,7 @@ public class QuestionsList extends ListActivity {
 
 		// Create an array to specify the fields we want to display in the list
 		// (only TITLE)
-		String[] from = new String[] { QuestionsDbAdapter.KEY_TITLE };
+		String[] from = new String[] { QuestionsDbAdapter.KEY_MQUESTION };
 
 		// and an array of the fields we want to bind those fields to (in this
 		// case just text1)
@@ -108,6 +110,8 @@ public class QuestionsList extends ListActivity {
 			ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		menu.add(0, DELETE_ID, 0, R.string.menu_delete_question);
+		menu.add(0, QUIZZ_ID, 0, R.string.menu_quizz);
+		menu.add(0, ENVOI_QUIZZ_ID, 0, R.string.menu_envoi_quizz);
 	}
 
 	@Override
@@ -116,13 +120,13 @@ public class QuestionsList extends ListActivity {
 		case DELETE_ID:
 			AdapterContextMenuInfo info = (AdapterContextMenuInfo) item
 					.getMenuInfo();
-			mDbHelper.deleteNote(info.id);
+			mDbHelper.deleteQuestion(info.id);
 			fillData(idFiche);
 			return true;
 		}
 		return super.onContextItemSelected(item);
 	}
-
+	
 	private void createNote() {
 		Intent i = new Intent(this, QuestionEdit.class);
 //		i.putExtra("idFiche", idFiche);
@@ -134,7 +138,7 @@ public class QuestionsList extends ListActivity {
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 		Intent i = new Intent(this, QuestionEdit.class);
-		i.putExtra(QuestionsDbAdapter.KEY_ROWID, id);
+		i.putExtra(QuestionsDbAdapter.KEY_MROWID, id);
 		startActivityForResult(i, ACTIVITY_EDIT);
 	}
 

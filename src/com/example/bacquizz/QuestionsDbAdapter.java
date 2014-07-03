@@ -36,10 +36,13 @@ import android.util.Log;
  */
 public class QuestionsDbAdapter {
 
-	public static final String KEY_TITLE = "title";
-	public static final String KEY_BODY = "body";
+	public static final String KEY_MQUESTION = "question";
+	public static final String KEY_MREP1 = "rep1";
+	public static final String KEY_MREP2 = "rep2";
+	public static final String KEY_MREP3 = "rep3";
+	public static final String KEY_MREP4 = "rep4";
 	public static final String KEY_ID_FICHE = "idFiche";
-	public static final String KEY_ROWID = "_id";
+	public static final String KEY_MROWID = "_id";
 
 	private static final String TAG = "QuestionsDbAdapter";
 	private DatabaseHelper mDbHelper;
@@ -48,12 +51,12 @@ public class QuestionsDbAdapter {
 	/**
 	 * Database creation sql statement
 	 */
-	private static final String DATABASE_CREATE = "create table notes (_id integer primary key autoincrement, "
-			+ "title text not null, body text not null, idFiche integer);";
+	private static final String DATABASE_CREATE = "create table mQuizz (_id integer primary key autoincrement, "
+			+ "question text not null, rep1 text not null, rep2 text not null, rep3 text not null, rep4 text not null,idFiche integer);";
 
 	private static final String DATABASE_NAME = "mQuizzDb";
-	private static final String DATABASE_TABLE = "notes";
-	private static final int DATABASE_VERSION = 18;
+	private static final String DATABASE_TABLE = "mQuizz";
+	private static final int DATABASE_VERSION = 21;
 
 	private final Context mCtx;
 
@@ -73,7 +76,7 @@ public class QuestionsDbAdapter {
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 			Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
 					+ newVersion + ", which will destroy all old data");
-			db.execSQL("DROP TABLE IF EXISTS notes");
+			db.execSQL("DROP TABLE IF EXISTS mQuizz");
 			onCreate(db);
 		}
 	}
@@ -120,10 +123,13 @@ public class QuestionsDbAdapter {
 	 *            the body of the note
 	 * @return rowId or -1 if failed
 	 */
-	public long createNote(String title, String body) {
+	public long createQuestion(String question, String rep1, String rep2,String rep3,String rep4) {
 		ContentValues initialValues = new ContentValues();
-		initialValues.put(KEY_TITLE, title);
-		initialValues.put(KEY_BODY, body);
+		initialValues.put(KEY_MQUESTION, question);
+		initialValues.put(KEY_MREP1, rep1);
+		initialValues.put(KEY_MREP2, rep2);
+		initialValues.put(KEY_MREP3, rep3);
+		initialValues.put(KEY_MREP4, rep4);
 		initialValues.put(KEY_ID_FICHE, 1);
 		return mDb.insert(DATABASE_TABLE, null, initialValues);
 	}
@@ -135,9 +141,9 @@ public class QuestionsDbAdapter {
 	 *            id of note to delete
 	 * @return true if deleted, false otherwise
 	 */
-	public boolean deleteNote(long rowId) {
+	public boolean deleteQuestion(long rowId) {
 
-		return mDb.delete(DATABASE_TABLE, KEY_ROWID + "=" + rowId, null) > 0;
+		return mDb.delete(DATABASE_TABLE, KEY_MROWID + "=" + rowId, null) > 0;
 	}
 
 	/**
@@ -145,10 +151,10 @@ public class QuestionsDbAdapter {
 	 * 
 	 * @return Cursor over all notes
 	 */
-	public Cursor fetchAllNotes() {
+	public Cursor fetchAllQuestions() {
 
-		return mDb.query(DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
-				KEY_BODY, KEY_ID_FICHE }, null, null, null, null, null);
+		return mDb.query(DATABASE_TABLE, new String[] { KEY_MROWID, KEY_MQUESTION,
+				KEY_MREP1,KEY_MREP2,KEY_MREP3,KEY_MREP4, KEY_ID_FICHE }, null, null, null, null, null);
 	}
 
 	/**
@@ -160,12 +166,12 @@ public class QuestionsDbAdapter {
 	 * @throws SQLException
 	 *             if note could not be found/retrieved
 	 */
-	public Cursor fetchNote(long rowId) throws SQLException {
+	public Cursor fetchQuestion(long rowId) throws SQLException {
 
 		Cursor mCursor =
 
-		mDb.query(true, DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
-				KEY_BODY,KEY_ID_FICHE }, KEY_ROWID + "=" + rowId, null, null, null, null,
+		mDb.query(true, DATABASE_TABLE, new String[] { KEY_MROWID, KEY_MQUESTION,
+				KEY_MREP1,KEY_MREP2,KEY_MREP3,KEY_MREP4,KEY_ID_FICHE }, KEY_MROWID + "=" + rowId, null, null, null, null,
 				null);
 		if (mCursor != null) {
 			mCursor.moveToFirst();
@@ -178,8 +184,8 @@ public class QuestionsDbAdapter {
 
 		
 		Cursor mCursor =
-				mDb.query(true, DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
-						KEY_BODY,KEY_ID_FICHE}, KEY_ID_FICHE + "=" + idFiche, null, null, null, null,
+				mDb.query(true, DATABASE_TABLE, new String[] { KEY_MROWID, KEY_MQUESTION,
+						KEY_MREP1,KEY_MREP2,KEY_MREP3,KEY_MREP4,KEY_ID_FICHE}, KEY_ID_FICHE + "=" + idFiche, null, null, null, null,
 						null);
 		if (mCursor == null) {
 			System.out.println("445");
@@ -206,10 +212,13 @@ public class QuestionsDbAdapter {
 	 *            value to set note body to
 	 * @return true if the note was successfully updated, false otherwise
 	 */
-	public boolean updateNote(long rowId, String title, String body) {
+	public boolean updateQuestion(long rowId, String question, String rep1, String rep2,String rep3,String rep4) {
 		ContentValues args = new ContentValues();
-		args.put(KEY_TITLE, title);
-		args.put(KEY_BODY, body);
-		return mDb.update(DATABASE_TABLE, args, KEY_ROWID + "=" + rowId, null) > 0;
+		args.put(KEY_MQUESTION, question);
+		args.put(KEY_MREP1, rep1);
+		args.put(KEY_MREP2, rep2);
+		args.put(KEY_MREP3, rep3);
+		args.put(KEY_MREP4, rep4);
+		return mDb.update(DATABASE_TABLE, args, KEY_MROWID + "=" + rowId, null) > 0;
 	}
 }

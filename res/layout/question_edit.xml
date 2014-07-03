@@ -1,33 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtQuestion" >
+        
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/votre_question_" />
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	
-	<LinearLayout android:orientation="horizontal"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/edtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:inputType="textMultiLine" >
 
-		<TextView android:layout_width="wrap_content"
-			android:layout_height="wrap_content" 
-			android:text="@string/title" />
-		<EditText android:id="@+id/title" 
-		  android:layout_width="wrap_content"
-			android:layout_height="wrap_content" 
-			android:layout_weight="1"/>
-	</LinearLayout>
+        <requestFocus />
+    </EditText>
 
-	<TextView android:layout_width="wrap_content"
-		android:layout_height="wrap_content" 
-		android:text="@string/body" />
-	<EditText android:id="@+id/body" android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_weight="1"
-		android:scrollbars="vertical" />
-	
-	<Button android:id="@+id/confirm" 
-	  android:text="@string/confirm"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/vos_r_ponses" />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/edtRep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/la_bonne_r_ponse"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtRep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRep1"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/mauvaise_r_ponse_1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtRep3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRep2"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/mauvaise_r_ponse_2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtRep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRep3"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/mauvaise_r_ponse_3"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRep4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/enregistrer" 
+        android:onClick="onClickEnregistrer"/>
+    
+
+	</RelativeLayout>
+</ScrollView>
