@@ -34,16 +34,7 @@
     </TableRow>
 
     <Button
-        android:id="@+id/btnAddQuestion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/tableRow1"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="52dp"
-        android:text="Add Question" />
-
-    <Button
-        android:id="@+id/confirm"
+        android:id="@+id/btnConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -51,5 +42,16 @@
         android:layout_marginLeft="41dp"
         android:layout_marginTop="18dp"
         android:text="@string/confirm" />
+
+    <Button
+        android:id="@+id/btnAddQuestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnConfirm"
+        android:layout_alignBottom="@+id/btnConfirm"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/btnConfirm"
+        android:onClick="onClickAddQuestion"
+        android:text="Add Question" />
 
 </RelativeLayout>

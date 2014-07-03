@@ -31,29 +31,29 @@ import android.util.Log;
  * 
  * This has been improved from the first version of this tutorial through the
  * addition of better error handling and also using returning a Cursor instead
- * of using a KEYlection of inner classes (which is less scalable and not
+ * of using a collection of inner classes (which is less scalable and not
  * recommended).
  */
-public class FichesDbAdapter {
-	
-	// table fiche
+public class QuestionsDbAdapter {
+
 	public static final String KEY_TITLE = "title";
+	public static final String KEY_BODY = "body";
+	public static final String KEY_ID_FICHE = "idFiche";
 	public static final String KEY_ROWID = "_id";
-	
-	
-	private static final String TAG = "FichesDbAdapter";
+
+	private static final String TAG = "QuestionsDbAdapter";
 	private DatabaseHelper mDbHelper;
 	private SQLiteDatabase mDb;
 
 	/**
 	 * Database creation sql statement
 	 */
-	private static final String DATABASE_CREATE_FICHE = "create table fiches (_id integer primary key autoincrement, "
-			+ "title text not null); ";
+	private static final String DATABASE_CREATE = "create table notes (_id integer primary key autoincrement, "
+			+ "title text not null, body text not null, idFiche integer);";
 
-	private static final String DATABASE_NAME = "data";
-	private static final String TABLE_FICHE = "fiches";
-	private static final int DATABASE_VERSION = 13;
+	private static final String DATABASE_NAME = "mQuizzDb";
+	private static final String DATABASE_TABLE = "notes";
+	private static final int DATABASE_VERSION = 18;
 
 	private final Context mCtx;
 
@@ -66,15 +66,14 @@ public class FichesDbAdapter {
 		@Override
 		public void onCreate(SQLiteDatabase db) {
 
-			db.execSQL(DATABASE_CREATE_FICHE);
+			db.execSQL(DATABASE_CREATE);
 		}
 
 		@Override
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 			Log.w(TAG, "Upgrading database from version " + oldVersion + " to "
 					+ newVersion + ", which will destroy all old data");
-			db.execSQL("DROP TABLE IF EXISTS fiches");
-			db.execSQL("DROP TABLE IF EXISTS mon_quizz2");
+			db.execSQL("DROP TABLE IF EXISTS notes");
 			onCreate(db);
 		}
 	}
@@ -86,7 +85,7 @@ public class FichesDbAdapter {
 	 * @param ctx
 	 *            the Context within which to work
 	 */
-	public FichesDbAdapter(Context ctx) {
+	public QuestionsDbAdapter(Context ctx) {
 		this.mCtx = ctx;
 	}
 
@@ -100,7 +99,7 @@ public class FichesDbAdapter {
 	 * @throws SQLException
 	 *             if the database could be neither opened or created
 	 */
-	public FichesDbAdapter open() throws SQLException {
+	public QuestionsDbAdapter open() throws SQLException {
 		mDbHelper = new DatabaseHelper(mCtx);
 		mDb = mDbHelper.getWritableDatabase();
 		return this;
@@ -109,49 +108,47 @@ public class FichesDbAdapter {
 	public void close() {
 		mDbHelper.close();
 	}
-	
-	//------------------------------CREATE-------------------------------------
 
 	/**
-	 * Create a new fiche using the title provided. If the note is
+	 * Create a new note using the title and body provided. If the note is
 	 * successfully created return the new rowId for that note, otherwise return
 	 * a -1 to indicate failure.
 	 * 
 	 * @param title
 	 *            the title of the note
+	 * @param body
+	 *            the body of the note
 	 * @return rowId or -1 if failed
 	 */
-	public long createFiche(String title) {
+	public long createNote(String title, String body) {
 		ContentValues initialValues = new ContentValues();
 		initialValues.put(KEY_TITLE, title);
-
-		return mDb.insert(TABLE_FICHE, null, initialValues);
+		initialValues.put(KEY_BODY, body);
+		initialValues.put(KEY_ID_FICHE, 1);
+		return mDb.insert(DATABASE_TABLE, null, initialValues);
 	}
 
-	
-	//------------------------------DELETE-------------------------------------
 	/**
-	 * Delete the fiche with the given rowId
+	 * Delete the note with the given rowId
 	 * 
 	 * @param rowId
-	 *            id of fiche to delete
+	 *            id of note to delete
 	 * @return true if deleted, false otherwise
 	 */
-	public boolean deleteFiche(long rowId) {
+	public boolean deleteNote(long rowId) {
 
-		return mDb.delete(TABLE_FICHE, KEY_ROWID + "=" + rowId, null) > 0;
+		return mDb.delete(DATABASE_TABLE, KEY_ROWID + "=" + rowId, null) > 0;
 	}
-	
 
-	//------------------------------SELECT-------------------------------------
 	/**
-	 * Return a Cursor over the list of all fiches in the database
+	 * Return a Cursor over the list of all notes in the database
 	 * 
 	 * @return Cursor over all notes
 	 */
-	public Cursor fetchAllFiches() {
+	public Cursor fetchAllNotes() {
 
-		return mDb.query(TABLE_FICHE, new String[] { KEY_ROWID, KEY_TITLE }, null, null, null, null, null);
+		return mDb.query(DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
+				KEY_BODY, KEY_ID_FICHE }, null, null, null, null, null);
 	}
 
 	/**
@@ -163,11 +160,12 @@ public class FichesDbAdapter {
 	 * @throws SQLException
 	 *             if note could not be found/retrieved
 	 */
-	public Cursor fetchFiche(long rowId) throws SQLException {
+	public Cursor fetchNote(long rowId) throws SQLException {
 
 		Cursor mCursor =
 
-		mDb.query(true, TABLE_FICHE, new String[] { KEY_ROWID, KEY_TITLE}, KEY_ROWID + "=" + rowId, null, null, null, null,
+		mDb.query(true, DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
+				KEY_BODY,KEY_ID_FICHE }, KEY_ROWID + "=" + rowId, null, null, null, null,
 				null);
 		if (mCursor != null) {
 			mCursor.moveToFirst();
@@ -176,23 +174,42 @@ public class FichesDbAdapter {
 
 	}
 	
-	//------------------------------UPDATE-------------------------------------
+	public Cursor fetchQuestionsByIdFiche(int idFiche) throws SQLException {
+
+		
+		Cursor mCursor =
+				mDb.query(true, DATABASE_TABLE, new String[] { KEY_ROWID, KEY_TITLE,
+						KEY_BODY,KEY_ID_FICHE}, KEY_ID_FICHE + "=" + idFiche, null, null, null, null,
+						null);
+		if (mCursor == null) {
+			System.out.println("445");
+		}
+		
+				if (mCursor != null) {
+					mCursor.moveToNext();
+				}
+				return mCursor;
+
+
+		
+	}
 	/**
 	 * Update the note using the details provided. The note to be updated is
-	 * specified using the rowId, and it is altered to use the title
+	 * specified using the rowId, and it is altered to use the title and body
 	 * values passed in
 	 * 
 	 * @param rowId
 	 *            id of note to update
 	 * @param title
 	 *            value to set note title to
+	 * @param body
+	 *            value to set note body to
 	 * @return true if the note was successfully updated, false otherwise
 	 */
-	public boolean updateFiche(long rowId, String title) {
+	public boolean updateNote(long rowId, String title, String body) {
 		ContentValues args = new ContentValues();
 		args.put(KEY_TITLE, title);
-
-		return mDb.update(TABLE_FICHE, args, KEY_ROWID + "=" + rowId, null) > 0;
+		args.put(KEY_BODY, body);
+		return mDb.update(DATABASE_TABLE, args, KEY_ROWID + "=" + rowId, null) > 0;
 	}
-	
 }

@@ -72,6 +72,12 @@
         <activity android:name="FicheEdit">
             <intent-filter></intent-filter>
         </activity>
+        <activity android:name="QuestionsList">
+            <intent-filter></intent-filter>
+        </activity>
+        <activity android:name="QuestionEdit">
+            <intent-filter></intent-filter>
+        </activity>
         
         
     </application>
