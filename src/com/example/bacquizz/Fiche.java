@@ -38,6 +38,8 @@ public class Fiche extends ListActivity {
 
 	private static final int INSERT_ID = Menu.FIRST;
 	private static final int DELETE_ID = Menu.FIRST + 1;
+	private static final int QUIZZ_ID = Menu.FIRST + 2;
+	private static final int ENVOI_QUIZZ_ID = Menu.FIRST + 3;
 
 	private FichesDbAdapter mDbHelper;
 
@@ -95,6 +97,8 @@ public class Fiche extends ListActivity {
 			ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		menu.add(0, DELETE_ID, 0, R.string.menu_delete);
+		menu.add(0, QUIZZ_ID, 0, R.string.menu_quizz);
+		menu.add(0, ENVOI_QUIZZ_ID, 0, R.string.menu_envoi_quizz);
 	}
 
 	@Override
